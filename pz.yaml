@@ -110,7 +110,5 @@ proxy-groups:
       - 动态住宅
 # 规则
 rules:
-# GeoIP China
-- GEOIP,CN,DIRECT
 
-- MATCH,DIRECT
+- MATCH,动态住宅

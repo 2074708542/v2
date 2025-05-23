@@ -110,7 +110,7 @@ proxy-groups:
       - 动态住宅
 # 规则
 rules:
-- DOMAIN-REGEX,^https?://mail.google.com/mail/u/.*,DIRECT
+- DOMAIN-KEYWORD ,//mail.google.com/mail/u/,DIRECT
 - DOMAIN-SUFFIX,adservice.google.com,DIRECT
 - DOMAIN-SUFFIX,ogs.google.com,DIRECT
 - DOMAIN-SUFFIX,people-pa.clients6.google.com,DIRECT
@@ -123,9 +123,9 @@ rules:
 - DOMAIN-SUFFIX,waa-pa.clients6.google.com,DIRECT
 - DOMAIN-SUFFIX,appsgrowthpromo-pa.clients6.google.com,DIRECT
 - DOMAIN-SUFFIX,addons-pa.clients6.google.com,DIRECT
-- DOMAIN-REGEX,^https?://www.google.com/pagead/.*,DIRECT
-- DOMAIN-REGEX,^https?://www.google.com/js/.*,DIRECT
-- DOMAIN-REGEX,^https?://www.google.com/_/scs/mail-static.*,DIRECT
+- DOMAIN-KEYWORD ,www.google.com/pagead/,DIRECT
+- DOMAIN-KEYWORD ,www.google.com/js/,DIRECT
+- DOMAIN-KEYWORD ,www.google.com/_/scs/mail-static,DIRECT
 - DOMAIN-SUFFIX,contacts.google.com,DIRECT
 - DOMAIN-SUFFIX,googleads.g.doubleclick.net,DIRECT
 - DOMAIN-SUFFIX,www.googleadservices.com,DIRECT

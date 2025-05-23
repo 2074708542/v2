@@ -45,58 +45,57 @@ experimental:
 # # 实验性 hosts, 支持通配符（如 *.clash.dev 甚至 *.foo.*.examplex.com ）
 # # 静态域的优先级高于通配符域（foo.example.com > *.example.com）
 hosts:
-  'mtalk.google.com': 108.177.125.188
+  "mtalk.google.com": 108.177.125.188
 #   '*.clash.dev': 127.0.0.1
 #   'alpha.clash.dev': '::1'
 
 # dns:
-  # enable: true # set true to enable dns (default is false)
-  # ipv6: false # default is false
-  # listen: 0.0.0.0:53
-  # # default-nameserver: # resolve dns nameserver host, should fill pure IP
-  # #   - 114.114.114.114
-  # #   - 8.8.8.8
-  # enhanced-mode: redir-host # or fake-ip
-  # # fake-ip-range: 198.18.0.1/16 # if you don't know what it is, don't change it
-  # fake-ip-filter: # fake ip white domain list
-  #   - '*.lan'
-  #   - localhost.ptlogin2.qq.com
-  # nameserver:
-  #   - 114.114.114.114
-  #   - tls://dns.rubyfish.cn:853 # dns over tls
-  #   - https://1.1.1.1/dns-query # dns over https
-  # fallback: # concurrent request with nameserver, fallback used when GEOIP country isn't CN
-  #   - tcp://1.1.1.1
-  # fallback-filter:
-  #   geoip: true # default
-  #   ipcidr: # ips in these subnets will be considered polluted
-  #     - 240.0.0.0/4
+# enable: true # set true to enable dns (default is false)
+# ipv6: false # default is false
+# listen: 0.0.0.0:53
+# # default-nameserver: # resolve dns nameserver host, should fill pure IP
+# #   - 114.114.114.114
+# #   - 8.8.8.8
+# enhanced-mode: redir-host # or fake-ip
+# # fake-ip-range: 198.18.0.1/16 # if you don't know what it is, don't change it
+# fake-ip-filter: # fake ip white domain list
+#   - '*.lan'
+#   - localhost.ptlogin2.qq.com
+# nameserver:
+#   - 114.114.114.114
+#   - tls://dns.rubyfish.cn:853 # dns over tls
+#   - https://1.1.1.1/dns-query # dns over https
+# fallback: # concurrent request with nameserver, fallback used when GEOIP country isn't CN
+#   - tcp://1.1.1.1
+# fallback-filter:
+#   geoip: true # default
+#   ipcidr: # ips in these subnets will be considered polluted
+#     - 240.0.0.0/4
 
 proxies:
-# 支持的协议及加密算法示例请查阅 Clash 项目 README 以使用最新格式：https://github.com/Dreamacro/clash/blob/master/README.md
+  # 支持的协议及加密算法示例请查阅 Clash 项目 README 以使用最新格式：https://github.com/Dreamacro/clash/blob/master/README.md
 
-# Shadowsocks 支持的加密方式:
-#   aes-128-gcm aes-192-gcm aes-256-gcm
-#   aes-128-cfb aes-192-cfb aes-256-cfb
-#   aes-128-ctr aes-192-ctr aes-256-ctr
-#   rc4-md5 chacha20-ietf xchacha20
-#   chacha20-ietf-poly1305 xchacha20-ietf-poly1305
+  # Shadowsocks 支持的加密方式:
+  #   aes-128-gcm aes-192-gcm aes-256-gcm
+  #   aes-128-cfb aes-192-cfb aes-256-cfb
+  #   aes-128-ctr aes-192-ctr aes-256-ctr
+  #   rc4-md5 chacha20-ietf xchacha20
+  #   chacha20-ietf-poly1305 xchacha20-ietf-poly1305
 
-# as.dcfba5b55f4f7054.ipmars.vip:4900:WRY2aRyDmi-zone-mars-region-ID:43560082
-- name: 动态住宅
-  type: socks5
-  server: as.dcfba5b55f4f7054.ipmars.vip
-  port: 4900
-  username: WRY2aRyDmi-zone-mars-region-ID
-  password: 43560082
-- name: 🇷🇺_RU_俄罗斯
-  type: ss
-  server: 185.231.233.112
-  port: 989
-  password: f8f7aCzcPKbsF8p3
-  ip-version: dual
-  udp: true
-  cipher: aes-256-cfb
+  # as.dcfba5b55f4f7054.ipmars.vip:4900:WRY2aRyDmi-zone-mars-region-ID:43560082
+  - name: 动态住宅
+    type: socks5
+    server: as.dcfba5b55f4f7054.ipmars.vip
+    port: 4900
+    username: zhangchux-zone-mars-region-ID
+    password: 564873531
+  - name: "id03 - 5 - 韩国"
+    type: ss
+    server: 120.238.76.202
+    port: 27013
+    cipher: aes-128-gcm
+    password: mL5aR2
+    udp: true
 proxy-groups:
   # - name: relay⏭
   #   type: relay
@@ -106,62 +105,62 @@ proxy-groups:
   - name: output
     type: select
     proxies:
-      # - 🇷🇺_RU_俄罗斯
+      # - "id03 - 5 - 韩国"
       - 动态住宅
       - DIRECT
 # 规则
 rules:
-- DOMAIN-KEYWORD,//mail.google.com/mail/u/,DIRECT
-- DOMAIN-SUFFIX,adservice.google.com,DIRECT
-- DOMAIN-SUFFIX,ogs.google.com,DIRECT
-- DOMAIN-SUFFIX,people-pa.clients6.google.com,DIRECT
-- DOMAIN-SUFFIX,feedback-pa.clients6.google.com,DIRECT
-- DOMAIN-SUFFIX,peoplestackwebexperiments-pa.clients6.google.com,DIRECT
-- DOMAIN-SUFFIX,peoplestack-pa.clients6.google.com,DIRECT
-- DOMAIN-SUFFIX,mail-seettings.google.com,DIRECT
-- DOMAIN-SUFFIX,lhe.google.com,DIRECT
-- DOMAIN-SUFFIX,ogads-pa.clients6.google.com,DIRECT
-- DOMAIN-SUFFIX,waa-pa.clients6.google.com,DIRECT
-- DOMAIN-SUFFIX,appsgrowthpromo-pa.clients6.google.com,DIRECT
-- DOMAIN-SUFFIX,addons-pa.clients6.google.com,DIRECT
-- DOMAIN-KEYWORD,www.google.com/pagead/,DIRECT
-- DOMAIN-KEYWORD,www.google.com/js/,DIRECT
-- DOMAIN-KEYWORD,www.google.com/_/scs/mail-static,DIRECT
-- DOMAIN-SUFFIX,contacts.google.com,DIRECT
-- DOMAIN-SUFFIX,googleads.g.doubleclick.net,DIRECT
-- DOMAIN-SUFFIX,www.googleadservices.com,DIRECT
-- DOMAIN-SUFFIX,www.google-analytics.com,DIRECT
-- DOMAIN-SUFFIX,apis.google.com,DIRECT
-- DOMAIN-SUFFIX,ssl/google-analytics.com,DIRECT
-- DOMAIN-SUFFIX,www.googletagmanager.com,DIRECT
-- DOMAIN-SUFFIX,lh3.googleusercontent.com,DIRECT
-- DOMAIN-SUFFIX,workspace.google.com,DIRECT
-- DOMAIN-SUFFIX,autonavi.com,DIRECT
-- DOMAIN-SUFFIX,accounts.youtube.com,DIRECT
-- DOMAIN-SUFFIX,www.bing.com,DIRECT
-- DOMAIN-SUFFIX,firefox.fun,DIRECT
-- DOMAIN-SUFFIX,yimg.com,DIRECT
-- DOMAIN-SUFFIX,yahoo.com,DIRECT
-- DOMAIN-SUFFIX,mail-ads.google.com,DIRECT
-- DOMAIN-SUFFIX,dl.google.com,DIRECT
-- DOMAIN-SUFFIX,gvt2.com,DIRECT
-- DOMAIN-SUFFIX,gvt1.com,DIRECT
-- DOMAIN-SUFFIX,gstatic.com,DIRECT
-- DOMAIN-SUFFIX,dwmail.link,DIRECT
-- DOMAIN-SUFFIX,api.haozhuma.com,DIRECT
-- DOMAIN-SUFFIX,osss1.ikjkxy.fun,DIRECT
-- DOMAIN-SUFFIX,flowframes.oss-cn-chengdu.aliyuncs.com,DIRECT
-- DOMAIN-SUFFIX,saasvideo.cn,DIRECT
-- DOMAIN-SUFFIX,iosvip.ieasyclick.net,REJECT
-- DOMAIN-SUFFIX,immsg.today,DIRECT
-- DOMAIN-SUFFIX,aliyuncs.com,DIRECT
-- IP-CIDR,192.168.0.0/16,DIRECT
-- IP-CIDR,10.0.0.0/8,DIRECT
-- IP-CIDR,172.16.0.0/12,DIRECT
-- IP-CIDR,47.110.79.137/24,DIRECT
-- IP-CIDR,42.192.3.215/24,DIRECT
-- IP-CIDR,42.238.190.4/24,DIRECT
-- IP-CIDR,119.28.179.164/24,DIRECT
-- IP-CIDR,120.26.237.92/24,DIRECT
-- DOMAIN-KEYWORD,myip.ipip.net,DIRECT
-- MATCH,动态住宅
+  - DOMAIN-KEYWORD,//mail.google.com/mail/u/,DIRECT
+  - DOMAIN-SUFFIX,adservice.google.com,DIRECT
+  - DOMAIN-SUFFIX,ogs.google.com,DIRECT
+  - DOMAIN-SUFFIX,people-pa.clients6.google.com,DIRECT
+  - DOMAIN-SUFFIX,feedback-pa.clients6.google.com,DIRECT
+  - DOMAIN-SUFFIX,peoplestackwebexperiments-pa.clients6.google.com,DIRECT
+  - DOMAIN-SUFFIX,peoplestack-pa.clients6.google.com,DIRECT
+  - DOMAIN-SUFFIX,mail-seettings.google.com,DIRECT
+  - DOMAIN-SUFFIX,lhe.google.com,DIRECT
+  - DOMAIN-SUFFIX,ogads-pa.clients6.google.com,DIRECT
+  - DOMAIN-SUFFIX,waa-pa.clients6.google.com,DIRECT
+  - DOMAIN-SUFFIX,appsgrowthpromo-pa.clients6.google.com,DIRECT
+  - DOMAIN-SUFFIX,addons-pa.clients6.google.com,DIRECT
+  - DOMAIN-KEYWORD,www.google.com/pagead/,DIRECT
+  - DOMAIN-KEYWORD,www.google.com/js/,DIRECT
+  - DOMAIN-KEYWORD,www.google.com/_/scs/mail-static,DIRECT
+  - DOMAIN-SUFFIX,contacts.google.com,DIRECT
+  - DOMAIN-SUFFIX,googleads.g.doubleclick.net,DIRECT
+  - DOMAIN-SUFFIX,www.googleadservices.com,DIRECT
+  - DOMAIN-SUFFIX,www.google-analytics.com,DIRECT
+  - DOMAIN-SUFFIX,apis.google.com,DIRECT
+  - DOMAIN-SUFFIX,ssl/google-analytics.com,DIRECT
+  - DOMAIN-SUFFIX,www.googletagmanager.com,DIRECT
+  - DOMAIN-SUFFIX,lh3.googleusercontent.com,DIRECT
+  - DOMAIN-SUFFIX,workspace.google.com,DIRECT
+  - DOMAIN-SUFFIX,autonavi.com,DIRECT
+  - DOMAIN-SUFFIX,accounts.youtube.com,DIRECT
+  - DOMAIN-SUFFIX,www.bing.com,DIRECT
+  - DOMAIN-SUFFIX,firefox.fun,DIRECT
+  - DOMAIN-SUFFIX,yimg.com,DIRECT
+  - DOMAIN-SUFFIX,yahoo.com,DIRECT
+  - DOMAIN-SUFFIX,mail-ads.google.com,DIRECT
+  - DOMAIN-SUFFIX,dl.google.com,DIRECT
+  - DOMAIN-SUFFIX,gvt2.com,DIRECT
+  - DOMAIN-SUFFIX,gvt1.com,DIRECT
+  - DOMAIN-SUFFIX,gstatic.com,DIRECT
+  - DOMAIN-SUFFIX,dwmail.link,DIRECT
+  - DOMAIN-SUFFIX,api.haozhuma.com,DIRECT
+  - DOMAIN-SUFFIX,osss1.ikjkxy.fun,DIRECT
+  - DOMAIN-SUFFIX,flowframes.oss-cn-chengdu.aliyuncs.com,DIRECT
+  - DOMAIN-SUFFIX,saasvideo.cn,DIRECT
+  - DOMAIN-SUFFIX,iosvip.ieasyclick.net,REJECT
+  - DOMAIN-SUFFIX,immsg.today,DIRECT
+  - DOMAIN-SUFFIX,aliyuncs.com,DIRECT
+  - IP-CIDR,192.168.0.0/16,DIRECT
+  - IP-CIDR,10.0.0.0/8,DIRECT
+  - IP-CIDR,172.16.0.0/12,DIRECT
+  - IP-CIDR,47.110.79.137/24,DIRECT
+  - IP-CIDR,42.192.3.215/24,DIRECT
+  - IP-CIDR,42.238.190.4/24,DIRECT
+  - IP-CIDR,119.28.179.164/24,DIRECT
+  - IP-CIDR,120.26.237.92/24,DIRECT
+  - DOMAIN-KEYWORD,myip.ipip.net,DIRECT
+  - MATCH,动态住宅

@@ -151,7 +151,7 @@ rules:
 - DOMAIN-SUFFIX,osss1.ikjkxy.fun,DIRECT
 - DOMAIN-SUFFIX,flowframes.oss-cn-chengdu.aliyuncs.com,DIRECT
 - DOMAIN-SUFFIX,saasvideo.cn,DIRECT
-- DOMAIN-SUFFIX,iosvip.ieasyclick.net,REJECT-DROP
+- DOMAIN-SUFFIX,iosvip.ieasyclick.net,REJECT
 - DOMAIN-SUFFIX,immsg.today,DIRECT
 - DOMAIN-SUFFIX,aliyuncs.com,DIRECT
 - IP-CIDR,192.168.0.0/16,DIRECT

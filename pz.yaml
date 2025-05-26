@@ -188,4 +188,10 @@ rules:
   - DOMAIN,ad.doubleclick.net,DIRECT 
   - DOMAIN,accounts.doubleclick.net,DIRECT
   - DOMAIN,lh3.google.com,DIRECT
+  - DOMAIN,android.clients.google.com,DIRECT
+  - DOMAIN,clientservices,DIRECT
+  - DOMAIN,static.xx.fbcdn.net,DIRECT
+  - DOMAIN,history.google.com,DIRECT
+  - DOMAIN-KEYWORD,fonts,DIRECT
+  
   - MATCH,动态住宅

@@ -162,5 +162,29 @@ rules:
   - IP-CIDR,42.238.190.4/24,DIRECT
   - IP-CIDR,119.28.179.164/24,DIRECT
   - IP-CIDR,120.26.237.92/24,DIRECT
-  - DOMAIN-KEYWORD,myip.ipip.net,DIRECT
+
+  - DOMAIN-SUFFIX,mail-settings.google.com,DIRECT
+  - DOMAIN-KEYWORD,vmoscloud,DIRECT
+  - DOMAIN,wallet.google.com,DIRECT
+  - DST-PORT,9528,DIRECT
+  - DOMAIN,openapi-hk.armcloud.net,DIRECT
+  - DOMAIN,android.bugly.qq.com,DIRECT
+  - DOMAIN,m.youtube.com,DIRECT
+  #猜测为谷歌搜索页面
+  - DOMAIN,images-na.ssl-images-amazon.com,DIRECT
+  - DOMAIN,en.m.wikipedia.org,DIRECT
+  - DOMAIN,ir.ebaystatic.com,DIRECT
+  - DOMAIN,www.instagram.com,DIRECT
+  - DOMAIN,a.espncdn.com,DIRECT
+  - DOMAIN,cdn.detik.net.id,DIRECT
+  - DOMAIN,abs-0.twimg.com,DIRECT
+  - DOMAIN,styleguide.brainly.co.id,DIRECT
+  - DOMAIN,assets.cpcdn.com,DIRECT
+  - DOMAIN,am.olx.biz.id,DIRECT
+  - DOMAIN,yt3.ggpht.com,DIRECT
+  #- DOMAIN,,DIRECT
+  #有疑点
+  - DOMAIN,ad.doubleclick.net,DIRECT 
+  - DOMAIN,accounts.doubleclick.net,DIRECT
+  - DOMAIN,lh3.google.com,DIRECT
   - MATCH,动态住宅

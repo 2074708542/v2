@@ -162,8 +162,8 @@ rules:
   - IP-CIDR,42.238.190.4/24,DIRECT
   - IP-CIDR,119.28.179.164/24,DIRECT
   - IP-CIDR,120.26.237.92/24,DIRECT
-  - DOMAIN-SUFFIX,jichnegfz.top,DIRECT
-
+  - DOMAIN-SUFFIX,jichengfz.top,DIRECT
+  
   - DOMAIN-SUFFIX,mail-settings.google.com,DIRECT
   - DOMAIN-KEYWORD,vmoscloud,DIRECT
   - DOMAIN,wallet.google.com,DIRECT

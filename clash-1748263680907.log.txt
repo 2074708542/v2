@@ -1,0 +1,430 @@
+# Capture on 2025-05-26 19:48:00.907
+19:48:01.129 Warning: [TCP] dial DIRECT (match DstPort/9528) to 47.76.162.111:9528 error: dial tcp4 47.76.162.111:9528: connect: connection refused
+19:48:16.874    Info: [TCP] 127.0.0.1:57540 --> connectivitycheck.gstatic.com:443 match DomainSuffix(gstatic.com) using DIRECT
+19:48:16.985    Info: [TCP] 127.0.0.1:57546 --> play.googleapis.com:443 match Match() using 动态住宅
+19:48:17.317    Info: [TCP] 127.0.0.1:57560 --> play.googleapis.com:443 match Match() using 动态住宅
+19:48:17.957    Info: [TCP] 127.0.0.1:57570 --> rr1---sn-npoldn7z.gvt1.com:443 match DomainSuffix(gvt1.com) using DIRECT
+19:48:18.070    Info: [TCP] 127.0.0.1:57572 --> rr5---sn-i3b7knzl.gvt1.com:443 match DomainSuffix(gvt1.com) using DIRECT
+19:48:22.501    Info: [TCP] 127.0.0.1:53146 --> accounts.google.com:443 match Match() using 动态住宅
+19:48:25.263    Info: [TCP] 127.0.0.1:53148 --> www.gstatic.com:443 match DomainSuffix(gstatic.com) using DIRECT
+19:48:26.790    Info: [TCP] 127.0.0.1:53162 --> connectivitycheck.gstatic.com:443 match DomainSuffix(gstatic.com) using DIRECT
+19:48:27.515    Info: [TCP] 127.0.0.1:53172 --> rr3---sn-npoe7nlz.gvt1.com:443 match DomainSuffix(gvt1.com) using DIRECT
+19:48:27.632    Info: [TCP] 127.0.0.1:53174 --> rr5---sn-i3bssn7e.gvt1.com:443 match DomainSuffix(gvt1.com) using DIRECT
+19:48:28.681    Info: [TCP] 127.0.0.1:53176 --> play.google.com:443 match Match() using 动态住宅
+19:48:35.701    Info: [TCP] 172.19.0.1:34206 --> dwmail.link:8030 match DomainSuffix(dwmail.link) using DIRECT
+19:48:35.728    Info: [TCP] 172.19.0.1:34208 --> dwmail.link:8030 match DomainSuffix(dwmail.link) using DIRECT
+19:48:41.140 Warning: [TCP] dial DIRECT (match DstPort/9528) to 47.76.162.111:9528 error: dial tcp4 47.76.162.111:9528: connect: connection refused
+19:48:44.392    Info: [TCP] 127.0.0.1:56372 --> play.google.com:443 match Match() using 动态住宅
+19:49:21.157 Warning: [TCP] dial DIRECT (match DstPort/9528) to 47.76.162.111:9528 error: dial tcp4 47.76.162.111:9528: connect: connection refused
+19:49:23.801    Info: [TCP] 127.0.0.1:59194 --> lh3.googleusercontent.com:443 match DomainSuffix(lh3.googleusercontent.com) using DIRECT
+19:49:39.229    Info: [TCP] 172.19.0.1:41060 --> lx.jichengfz.top:80 match Match() using 动态住宅
+19:49:39.455    Info: [TCP] 127.0.0.1:53034 --> android.googleapis.com:443 match Match() using 动态住宅
+19:49:40.863    Info: [TCP] 127.0.0.1:53066 --> android.apis.google.com:443 match DomainSuffix(apis.google.com) using DIRECT
+19:49:40.931    Info: [TCP] 127.0.0.1:53046 --> connectivitycheck.gstatic.com:443 match DomainSuffix(gstatic.com) using DIRECT
+19:49:40.997    Info: [TCP] 127.0.0.1:53052 --> android.googleapis.com:443 match Match() using 动态住宅
+19:49:41.025    Info: [TCP] 127.0.0.1:53074 --> android.googleapis.com:443 match Match() using 动态住宅
+19:49:41.059    Info: [TCP] 127.0.0.1:53100 --> android.googleapis.com:443 match Match() using 动态住宅
+19:49:41.068    Info: [TCP] 127.0.0.1:53084 --> android.googleapis.com:443 match Match() using 动态住宅
+19:49:41.069    Info: [TCP] 127.0.0.1:53112 --> android.googleapis.com:443 match Match() using 动态住宅
+19:49:41.092    Info: [TCP] 127.0.0.1:53150 --> dl.google.com:443 match DomainSuffix(dl.google.com) using DIRECT
+19:49:41.094    Info: [TCP] 127.0.0.1:53156 --> android.apis.google.com:443 match DomainSuffix(apis.google.com) using DIRECT
+19:49:41.114    Info: [TCP] 127.0.0.1:53116 --> android.googleapis.com:443 match Match() using 动态住宅
+19:49:41.141    Info: [TCP] 127.0.0.1:53130 --> android.googleapis.com:443 match Match() using 动态住宅
+19:49:41.186    Info: [TCP] 127.0.0.1:53144 --> android.googleapis.com:443 match Match() using 动态住宅
+19:49:41.289    Info: [TCP] 127.0.0.1:53172 --> android.googleapis.com:443 match Match() using 动态住宅
+19:49:41.400    Info: [TCP] 127.0.0.1:53182 --> android.googleapis.com:443 match Match() using 动态住宅
+19:49:41.509    Info: [TCP] 127.0.0.1:53186 --> android.googleapis.com:443 match Match() using 动态住宅
+19:49:41.532    Info: [TCP] 127.0.0.1:53198 --> play.google.com:443 match Match() using 动态住宅
+19:49:41.571    Info: [TCP] 127.0.0.1:53208 --> people-pa.googleapis.com:443 match Match() using 动态住宅
+19:49:41.855    Info: [TCP] 127.0.0.1:53210 --> footprints-pa.googleapis.com:443 match Match() using 动态住宅
+19:49:42.082    Info: [TCP] 127.0.0.1:53214 --> people-pa.googleapis.com:443 match Match() using 动态住宅
+19:49:42.085    Info: [TCP] 127.0.0.1:53218 --> reminders-pa.googleapis.com:443 match Match() using 动态住宅
+19:49:42.095    Info: [TCP] 127.0.0.1:53244 --> play-fe.googleapis.com:443 match Match() using 动态住宅
+19:49:42.096    Info: [TCP] 127.0.0.1:53232 --> play-fe.googleapis.com:443 match Match() using 动态住宅
+19:49:42.102    Info: [TCP] 127.0.0.1:53212 --> wallet.google.com:443 match Domain(wallet.google.com) using DIRECT
+19:49:42.134    Info: [TCP] 127.0.0.1:54180 --> googleads.g.doubleclick.net:443 match DomainSuffix(googleads.g.doubleclick.net) using DIRECT
+19:49:42.268    Info: [TCP] 127.0.0.1:54178 --> people-pa.googleapis.com:443 match Match() using 动态住宅
+19:49:42.420    Info: [TCP] 127.0.0.1:54210 --> android.clients.google.com:443 match Match() using 动态住宅
+19:49:42.455    Info: [TCP] 127.0.0.1:54196 --> lh3.googleusercontent.com:443 match DomainSuffix(lh3.googleusercontent.com) using DIRECT
+19:49:42.457    Info: [TCP] 127.0.0.1:54202 --> lh3.googleusercontent.com:443 match DomainSuffix(lh3.googleusercontent.com) using DIRECT
+19:49:42.869    Info: [TCP] 127.0.0.1:54226 --> phonedeviceverification-pa.googleapis.com:443 match Match() using 动态住宅
+19:49:43.000    Info: [TCP] 127.0.0.1:54232 --> www.googleapis.com:443 match Match() using 动态住宅
+19:49:43.359    Info: [TCP] 127.0.0.1:54234 --> www.googleapis.com:443 match Match() using 动态住宅
+19:49:43.550    Info: [TCP] 127.0.0.1:54246 --> cryptauthenrollment.googleapis.com:443 match Match() using 动态住宅
+19:49:43.644    Info: [TCP] 127.0.0.1:54258 --> android.googleapis.com:443 match Match() using 动态住宅
+19:49:43.919    Info: [TCP] 127.0.0.1:54262 --> firebaseperusertopics-pa.googleapis.com:443 match Match() using 动态住宅
+19:49:44.021    Info: [TCP] 127.0.0.1:54278 --> www.googleapis.com:443 match Match() using 动态住宅
+19:49:44.138    Info: [TCP] 127.0.0.1:54290 --> people-pa.googleapis.com:443 match Match() using 动态住宅
+19:49:44.953    Info: [TCP] 127.0.0.1:54298 --> android.googleapis.com:443 match Match() using 动态住宅
+19:49:45.392    Info: [TCP] 172.19.0.1:45400 --> lx.jichengfz.top:80 match Match() using 动态住宅
+19:49:45.957    Info: [TCP] 127.0.0.1:54306 --> cryptauthenrollment.googleapis.com:443 match Match() using 动态住宅
+19:49:47.339    Info: [TCP] 127.0.0.1:54314 --> www.googleapis.com:443 match Match() using 动态住宅
+19:49:47.726    Info: [TCP] 127.0.0.1:54324 --> cryptauthenrollment.googleapis.com:443 match Match() using 动态住宅
+19:49:49.571    Info: [TCP] 127.0.0.1:54334 --> cryptauthenrollment.googleapis.com:443 match Match() using 动态住宅
+19:49:50.599    Info: [TCP] 127.0.0.1:54336 --> cryptauthdevicesync.googleapis.com:443 match Match() using 动态住宅
+19:49:51.549    Info: [TCP] 172.19.0.1:45406 --> lx.jichengfz.top:80 match Match() using 动态住宅
+19:49:54.578    Info: [TCP] 127.0.0.1:55832 --> cryptauthenrollment.googleapis.com:443 match Match() using 动态住宅
+19:49:55.728    Info: [TCP] 127.0.0.1:55838 --> cryptauthdevicesync.googleapis.com:443 match Match() using 动态住宅
+19:49:57.413    Info: [TCP] 127.0.0.1:55850 --> cryptauthdevicesync.googleapis.com:443 match Match() using 动态住宅
+19:49:57.711    Info: [TCP] 172.19.0.1:33440 --> lx.jichengfz.top:80 match Match() using 动态住宅
+19:49:58.835    Info: [TCP] 127.0.0.1:55858 --> playatoms-pa.googleapis.com:443 match Match() using 动态住宅
+19:49:58.972    Info: [TCP] 127.0.0.1:55866 --> cryptauthdevicesync.googleapis.com:443 match Match() using 动态住宅
+19:49:59.370    Info: [TCP] 127.0.0.1:55880 --> chromesyncpasswords-pa.googleapis.com:443 match Match() using 动态住宅
+19:50:01.172 Warning: [TCP] dial DIRECT (match DstPort/9528) to 47.76.162.111:9528 error: dial tcp4 47.76.162.111:9528: connect: connection refused
+19:50:03.875    Info: [TCP] 172.19.0.1:42460 --> lx.jichengfz.top:80 match Match() using 动态住宅
+19:50:04.968    Info: [TCP] 127.0.0.1:46998 --> play.googleapis.com:443 match Match() using 动态住宅
+19:50:05.408    Info: [TCP] 127.0.0.1:47002 --> rr1---sn-npoldn7z.gvt1.com:443 match DomainSuffix(gvt1.com) using DIRECT
+19:50:05.494    Info: [TCP] 127.0.0.1:47016 --> rr5---sn-i3b7knzl.gvt1.com:443 match DomainSuffix(gvt1.com) using DIRECT
+19:50:10.050    Info: [TCP] 172.19.0.1:42474 --> lx.jichengfz.top:80 match Match() using 动态住宅
+19:50:11.502    Info: [TCP] 127.0.0.1:47020 --> people-pa.googleapis.com:443 match Match() using 动态住宅
+19:50:15.882    Info: [TCP] 127.0.0.1:36860 --> userlocation.googleapis.com:443 match Match() using 动态住宅
+19:50:16.251    Info: [TCP] 172.19.0.1:36384 --> lx.jichengfz.top:80 match Match() using 动态住宅
+19:50:19.661    Info: [TCP] 127.0.0.1:36872 --> android.clients.google.com:443 match Match() using 动态住宅
+19:50:22.421    Info: [TCP] 172.19.0.1:38142 --> lx.jichengfz.top:80 match Match() using 动态住宅
+19:50:37.403    Info: dns:
+19:50:37.403    Info:   enable: true
+19:50:37.404    Info:   ipv6: false
+19:50:37.405    Info:   use-hosts: true
+19:50:37.407    Info:   nameserver:
+19:50:37.408    Info:   - 223.5.5.5
+19:50:37.409    Info:   - 119.29.29.29
+19:50:37.409    Info:   - 8.8.4.4
+19:50:37.409    Info:   - 1.0.0.1
+19:50:37.410    Info:   - dhcp://system
+19:50:37.410    Info:   fallback: []
+19:50:37.410    Info:   fallback-filter:
+19:50:37.411    Info:     geoip: false
+19:50:37.411    Info:     geoip-code: ""
+19:50:37.412    Info:     ipcidr: []
+19:50:37.412    Info:     domain: []
+19:50:37.412    Info:   listen: ""
+19:50:37.412    Info:   enhanced-mode: fake-ip
+19:50:37.413    Info:   fake-ip-range: 28.0.0.0/8
+19:50:37.413    Info:   fake-ip-filter:
+19:50:37.413    Info:   - +.stun.*.*
+19:50:37.413    Info:   - +.stun.*.*.*
+19:50:37.414    Info:   - +.stun.*.*.*.*
+19:50:37.414    Info:   - +.stun.*.*.*.*.*
+19:50:37.414    Info:   - lens.l.google.com
+19:50:37.414    Info:   - '*.n.n.srv.nintendo.net'
+19:50:37.415    Info:   - +.stun.playstation.net
+19:50:37.415    Info:   - xbox.*.*.microsoft.com
+19:50:37.415    Info:   - '*.*.xboxlive.com'
+19:50:37.415    Info:   - '*.msftncsi.com'
+19:50:37.415    Info:   - '*.msftconnecttest.com'
+19:50:37.416    Info:   - '*.mcdn.bilivideo.cn'
+19:50:37.416    Info:   - WORKGROUP
+19:50:37.424    Info:   default-nameserver:
+19:50:37.425    Info:   - 223.5.5.5
+19:50:37.425    Info:   - 119.29.29.29
+19:50:37.426    Info:   - 8.8.4.4
+19:50:37.426    Info:   - 1.0.0.1
+19:50:37.427    Info:   nameserver-policy: {}
+19:50:37.427    Info: 
+19:50:37.427    Info: Start initial compatible provider output
+19:50:37.427    Info: HTTP proxy listening at: 127.0.0.1:7890
+19:50:37.428    Info: SOCKS proxy listening at: 127.0.0.1:7891
+19:50:37.440    Info: [UDP] 10.0.16.189:35710 --> 156.146.44.97:50000 doesn't match any rule using DIRECT
+19:50:37.455    Info: [UDP] 10.0.16.189:43712 --> 71.18.101.115:80 doesn't match any rule using DIRECT
+19:50:37.854    Info: [UDP] 10.0.16.189:49473 --> 71.18.101.115:80 doesn't match any rule using DIRECT
+19:50:38.097    Info: [UDP] 172.19.0.1:41053 --> 156.146.44.97:80 doesn't match any rule using DIRECT
+19:50:38.354    Info: [UDP] 172.19.0.1:41140 --> 71.18.101.115:50000 doesn't match any rule using DIRECT
+19:50:38.515    Info: [UDP] 172.19.0.1:38345 --> 71.18.101.115:80 doesn't match any rule using DIRECT
+19:50:39.772    Info: dns:
+19:50:39.772    Info:   enable: true
+19:50:39.773    Info:   ipv6: false
+19:50:39.773    Info:   use-hosts: true
+19:50:39.773    Info:   nameserver:
+19:50:39.774    Info:   - 223.5.5.5
+19:50:39.774    Info:   - 119.29.29.29
+19:50:39.774    Info:   - 8.8.4.4
+19:50:39.775    Info:   - 1.0.0.1
+19:50:39.775    Info:   - dhcp://system
+19:50:39.775    Info:   fallback: []
+19:50:39.775    Info:   fallback-filter:
+19:50:39.776    Info:     geoip: false
+19:50:39.776    Info:     geoip-code: ""
+19:50:39.776    Info:     ipcidr: []
+19:50:39.777    Info:     domain: []
+19:50:39.777    Info:   listen: ""
+19:50:39.777    Info:   enhanced-mode: fake-ip
+19:50:39.777    Info:   fake-ip-range: 28.0.0.0/8
+19:50:39.778    Info:   fake-ip-filter:
+19:50:39.778    Info:   - +.stun.*.*
+19:50:39.778    Info:   - +.stun.*.*.*
+19:50:39.778    Info:   - +.stun.*.*.*.*
+19:50:39.779    Info:   - +.stun.*.*.*.*.*
+19:50:39.779    Info:   - lens.l.google.com
+19:50:39.779    Info:   - '*.n.n.srv.nintendo.net'
+19:50:39.780    Info:   - +.stun.playstation.net
+19:50:39.780    Info:   - xbox.*.*.microsoft.com
+19:50:39.780    Info:   - '*.*.xboxlive.com'
+19:50:39.780    Info:   - '*.msftncsi.com'
+19:50:39.780    Info:   - '*.msftconnecttest.com'
+19:50:39.781    Info:   - '*.mcdn.bilivideo.cn'
+19:50:39.781    Info:   - WORKGROUP
+19:50:39.788    Info:   default-nameserver:
+19:50:39.788    Info:   - 223.5.5.5
+19:50:39.788    Info:   - 119.29.29.29
+19:50:39.788    Info:   - 8.8.4.4
+19:50:39.788    Info:   - 1.0.0.1
+19:50:39.789    Info:   nameserver-policy: {}
+19:50:39.789    Info: 
+19:50:39.789    Info: Start initial compatible provider output
+19:50:39.789    Info: HTTP proxy listening at: 127.0.0.1:7890
+19:50:39.789    Info: SOCKS proxy listening at: 127.0.0.1:7891
+19:50:39.804    Info: [UDP] 10.0.16.189:35710 --> 156.146.44.97:50000 doesn't match any rule using DIRECT
+19:50:40.108    Info: [TCP] 127.0.0.1:59250 --> connectivitycheck.gstatic.com:443 match DomainSuffix(gstatic.com) using DIRECT
+19:50:40.202    Info: [UDP] 10.0.16.189:43712 --> 71.18.101.115:80 doesn't match any rule using DIRECT
+19:50:40.604    Info: [UDP] 10.0.16.189:49473 --> 71.18.101.115:80 doesn't match any rule using DIRECT
+19:50:41.022    Info: [UDP] 172.19.0.1:50473 --> 156.146.44.97:80 doesn't match any rule using DIRECT
+19:50:41.179    Info: [TCP] 172.19.0.1:53663 --> 156.146.44.97:443 match Match() using 动态住宅
+19:50:41.184    Info: [UDP] 172.19.0.1:60060 --> 71.18.101.115:80 doesn't match any rule using DIRECT
+19:50:41.191 Warning: [TCP] dial DIRECT (match DstPort/9528) to 47.76.162.111:9528 error: dial tcp4 47.76.162.111:9528: connect: connection refused
+19:50:41.284    Info: [UDP] 172.19.0.1:60315 --> 71.18.101.115:80 doesn't match any rule using DIRECT
+19:50:41.333    Info: [TCP] 172.19.0.1:56249 --> 71.18.101.115:443 match Match() using 动态住宅
+19:50:41.439    Info: [TCP] 172.19.0.1:34679 --> 71.18.101.115:443 match Match() using 动态住宅
+19:50:42.593    Info: [TCP] 127.0.0.1:49868 --> android.googleapis.com:443 match Match() using 动态住宅
+19:50:45.107    Info: [TCP] 127.0.0.1:49874 --> android.apis.google.com:443 match DomainSuffix(apis.google.com) using DIRECT
+19:50:46.430    Info: [TCP] 127.0.0.1:49878 --> instantmessaging-pa.googleapis.com:443 match Match() using 动态住宅
+19:50:49.910    Info: [TCP] 127.0.0.1:49882 --> event.vmoscloud.com:443 match DomainKeyword(vmoscloud) using DIRECT
+19:50:51.438    Info: [TCP] 127.0.0.1:49886 --> play-fe.googleapis.com:443 match Match() using 动态住宅
+19:50:51.610    Info: [TCP] 127.0.0.1:49888 --> play.googleapis.com:443 match Match() using 动态住宅
+19:50:52.506    Info: [TCP] 127.0.0.1:35132 --> playatoms-pa.googleapis.com:443 match Match() using 动态住宅
+19:50:52.800    Info: [TCP] 127.0.0.1:35146 --> play.googleapis.com:443 match Match() using 动态住宅
+19:50:54.949    Info: [TCP] 127.0.0.1:35162 --> www.googleapis.com:443 match Match() using 动态住宅
+19:50:55.721    Info: [TCP] 127.0.0.1:35178 --> play-lh.googleusercontent.com:443 match Match() using 动态住宅
+19:50:55.725    Info: [TCP] 127.0.0.1:35188 --> play-lh.googleusercontent.com:443 match Match() using 动态住宅
+19:50:55.733    Info: [TCP] 127.0.0.1:35204 --> play-lh.googleusercontent.com:443 match Match() using 动态住宅
+19:50:55.734    Info: [TCP] 127.0.0.1:35216 --> play-lh.googleusercontent.com:443 match Match() using 动态住宅
+19:51:03.620    Info: [TCP] 172.19.0.1:46038 --> lx.jichengfz.top:80 match Match() using 动态住宅
+19:51:09.799    Info: [TCP] 172.19.0.1:46050 --> lx.jichengfz.top:80 match Match() using 动态住宅
+19:51:10.048    Info: [TCP] 127.0.0.1:60966 --> people-pa.googleapis.com:443 match Match() using 动态住宅
+19:51:24.153    Info: dns:
+19:51:24.155    Info:   enable: true
+19:51:24.159    Info:   ipv6: false
+19:51:24.160    Info:   use-hosts: true
+19:51:24.160    Info:   nameserver:
+19:51:24.160    Info:   - 223.5.5.5
+19:51:24.161    Info:   - 119.29.29.29
+19:51:24.161    Info:   - 8.8.4.4
+19:51:24.161    Info:   - 1.0.0.1
+19:51:24.162    Info:   - dhcp://system
+19:51:24.162    Info:   fallback: []
+19:51:24.163    Info:   fallback-filter:
+19:51:24.163    Info:     geoip: false
+19:51:24.164    Info:     geoip-code: ""
+19:51:24.164    Info:     ipcidr: []
+19:51:24.164    Info:     domain: []
+19:51:24.165    Info:   listen: ""
+19:51:24.165    Info:   enhanced-mode: fake-ip
+19:51:24.165    Info:   fake-ip-range: 28.0.0.0/8
+19:51:24.166    Info:   fake-ip-filter:
+19:51:24.166    Info:   - +.stun.*.*
+19:51:24.167    Info:   - +.stun.*.*.*
+19:51:24.167    Info:   - +.stun.*.*.*.*
+19:51:24.167    Info:   - +.stun.*.*.*.*.*
+19:51:24.167    Info:   - lens.l.google.com
+19:51:24.168    Info:   - '*.n.n.srv.nintendo.net'
+19:51:24.168    Info:   - +.stun.playstation.net
+19:51:24.168    Info:   - xbox.*.*.microsoft.com
+19:51:24.168    Info:   - '*.*.xboxlive.com'
+19:51:24.168    Info:   - '*.msftncsi.com'
+19:51:24.169    Info:   - '*.msftconnecttest.com'
+19:51:24.169    Info:   - '*.mcdn.bilivideo.cn'
+19:51:24.169    Info:   - WORKGROUP
+19:51:24.169    Info:   default-nameserver:
+19:51:24.170    Info:   - 223.5.5.5
+19:51:24.171    Info:   - 119.29.29.29
+19:51:24.171    Info:   - 8.8.4.4
+19:51:24.172    Info:   - 1.0.0.1
+19:51:24.172    Info:   nameserver-policy: {}
+19:51:24.173    Info: 
+19:51:24.173    Info: Start initial compatible provider output
+19:51:24.173    Info: HTTP proxy listening at: 127.0.0.1:7890
+19:51:24.173    Info: SOCKS proxy listening at: 127.0.0.1:7891
+19:51:24.189    Info: [UDP] 10.0.16.189:35710 --> 156.146.44.97:50000 doesn't match any rule using DIRECT
+19:51:24.219    Info: [UDP] 10.0.16.189:49473 --> 71.18.101.115:80 doesn't match any rule using DIRECT
+19:51:24.220    Info: [UDP] 10.0.16.189:43712 --> 71.18.101.115:80 doesn't match any rule using DIRECT
+19:51:24.996    Info: [TCP] 172.19.0.1:52628 --> dns.google:443 match Match() using 动态住宅
+19:51:24.999    Info: [TCP] 172.19.0.1:52642 --> dns.google:443 match Match() using 动态住宅
+19:51:24.999    Info: [TCP] 172.19.0.1:52618 --> dns.google:443 match Match() using 动态住宅
+19:51:25.076    Info: [UDP] 172.19.0.1:36446 --> 156.146.44.97:80 doesn't match any rule using DIRECT
+19:51:25.224    Info: [UDP] 172.19.0.1:37557 --> 71.18.101.115:80 doesn't match any rule using DIRECT
+19:51:25.229    Info: [TCP] 172.19.0.1:52541 --> 156.146.44.97:443 match Match() using 动态住宅
+19:51:25.342    Info: [UDP] 172.19.0.1:42908 --> 71.18.101.115:50000 doesn't match any rule using DIRECT
+19:51:25.378    Info: [TCP] 172.19.0.1:54189 --> 71.18.101.115:443 match Match() using 动态住宅
+19:51:25.497    Info: [TCP] 172.19.0.1:45805 --> 71.18.101.115:443 match Match() using 动态住宅
+19:51:25.903    Info: [TCP] 172.19.0.1:52652 --> dns.google:443 match Match() using 动态住宅
+19:51:29.459    Info: [TCP] 127.0.0.1:45150 --> android.clients.google.com:443 match Match() using 动态住宅
+19:51:30.002    Info: [TCP] 127.0.0.1:45152 --> optimizationguide-pa.googleapis.com:443 match Match() using 动态住宅
+19:51:31.363    Info: [TCP] 127.0.0.1:45162 --> accounts.google.com:443 match Match() using 动态住宅
+19:51:31.693    Info: [TCP] 127.0.0.1:45168 --> android.apis.google.com:443 match DomainSuffix(apis.google.com) using DIRECT
+19:51:31.713    Info: [TCP] 127.0.0.1:45180 --> accounts.youtube.com:443 match DomainSuffix(accounts.youtube.com) using DIRECT
+19:51:31.912    Info: [TCP] 127.0.0.1:45174 --> accounts.doubleclick.net:443 match Domain(accounts.doubleclick.net) using DIRECT
+19:51:32.516    Info: [TCP] 127.0.0.1:43522 --> images-na.ssl-images-amazon.com:443 match Domain(images-na.ssl-images-amazon.com) using DIRECT
+19:51:32.527    Info: [TCP] 127.0.0.1:43546 --> s.yimg.com:443 match DomainSuffix(yimg.com) using DIRECT
+19:51:32.535    Info: [TCP] 127.0.0.1:43512 --> m.youtube.com:443 match Domain(m.youtube.com) using DIRECT
+19:51:32.539    Info: [TCP] 127.0.0.1:43552 --> ir.ebaystatic.com:443 match Domain(ir.ebaystatic.com) using DIRECT
+19:51:32.540    Info: [TCP] 127.0.0.1:43556 --> www.instagram.com:443 match Domain(www.instagram.com) using DIRECT
+19:51:32.541    Info: [TCP] 127.0.0.1:43534 --> a.espncdn.com:80 match Domain(a.espncdn.com) using DIRECT
+19:51:32.549    Info: [TCP] 127.0.0.1:43528 --> en.m.wikipedia.org:443 match Domain(en.m.wikipedia.org) using DIRECT
+19:51:32.570    Info: [TCP] 127.0.0.1:43474 --> android.clients.google.com:443 match Match() using 动态住宅
+19:51:32.652    Info: [TCP] 127.0.0.1:43496 --> static.xx.fbcdn.net:443 match Match() using 动态住宅
+19:51:32.791    Info: [TCP] 127.0.0.1:43480 --> www.gstatic.com:443 match DomainSuffix(gstatic.com) using DIRECT
+19:51:32.807    Info: [TCP] 127.0.0.1:43566 --> android.apis.google.com:443 match DomainSuffix(apis.google.com) using DIRECT
+19:51:32.840    Info: [TCP] 127.0.0.1:43560 --> www.google.com:443 match Match() using 动态住宅
+19:51:32.997    Info: [TCP] 127.0.0.1:43582 --> android.googleapis.com:443 match Match() using 动态住宅
+19:51:33.038    Info: [TCP] 127.0.0.1:43590 --> www.google.com:443 match Match() using 动态住宅
+19:51:33.815    Info: [TCP] 127.0.0.1:43602 --> zh.m.wikipedia.org:443 match Match() using 动态住宅
+19:51:33.816    Info: [TCP] 127.0.0.1:43610 --> staticlayout.appledaily.hk:443 match Match() using 动态住宅
+19:51:33.828    Info: [TCP] 127.0.0.1:43612 --> www.openrice.com:443 match Match() using 动态住宅
+19:51:33.844    Info: [TCP] 127.0.0.1:43620 --> cdn01.dcfever.com:80 match Match() using 动态住宅
+19:51:33.845    Info: [TCP] 127.0.0.1:43626 --> m.gamer.com.tw:80 match Match() using 动态住宅
+19:51:33.959    Info: [TCP] 127.0.0.1:43640 --> ulp1p-pa.googleapis.com:443 match Match() using 动态住宅
+19:51:34.924    Info: [TCP] 127.0.0.1:43652 --> m.gamer.com.tw:443 match Match() using 动态住宅
+19:51:35.062    Info: [TCP] 127.0.0.1:43654 --> clients4.google.com:443 match Match() using 动态住宅
+19:51:35.129    Info: [TCP] 127.0.0.1:43666 --> android.googleapis.com:443 match Match() using 动态住宅
+19:51:35.466    Info: [TCP] 127.0.0.1:43680 --> accounts.google.com:443 match Match() using 动态住宅
+19:51:35.635    Info: [TCP] 127.0.0.1:43688 --> discover-pa.googleapis.com:443 match Match() using 动态住宅
+19:51:37.121    Info: [TCP] 127.0.0.1:43694 --> encrypted-tbn0.gstatic.com:443 match DomainSuffix(gstatic.com) using DIRECT
+19:51:37.123    Info: [TCP] 127.0.0.1:43698 --> encrypted-tbn3.gstatic.com:443 match DomainSuffix(gstatic.com) using DIRECT
+19:51:37.151    Info: [TCP] 127.0.0.1:43706 --> encrypted-tbn0.gstatic.com:443 match DomainSuffix(gstatic.com) using DIRECT
+19:51:37.191    Info: [TCP] 127.0.0.1:43720 --> encrypted-tbn1.gstatic.com:443 match DomainSuffix(gstatic.com) using DIRECT
+19:51:37.814    Info: [TCP] 127.0.0.1:43728 --> mail.google.com:443 match Match() using 动态住宅
+19:51:37.862    Info: [TCP] 127.0.0.1:43742 --> mail.google.com:443 match Match() using 动态住宅
+19:51:37.930    Info: [TCP] 127.0.0.1:43748 --> discover-pa.googleapis.com:443 match Match() using 动态住宅
+19:51:37.955    Info: [TCP] 127.0.0.1:43760 --> update.googleapis.com:443 match Match() using 动态住宅
+19:51:43.842    Info: [TCP] 127.0.0.1:54884 --> history.google.com:443 match Match() using 动态住宅
+19:51:45.677    Info: [TCP] 127.0.0.1:54892 --> fonts.googleapis.com:443 match Match() using 动态住宅
+19:51:47.735    Info: [TCP] 127.0.0.1:54898 --> fonts.gstatic.com:443 match DomainSuffix(gstatic.com) using DIRECT
+19:51:48.882    Info: [TCP] 127.0.0.1:54912 --> ssl.gstatic.com:443 match DomainSuffix(gstatic.com) using DIRECT
+19:51:51.676    Info: [TCP] 127.0.0.1:54928 --> www.gstatic.com:443 match DomainSuffix(gstatic.com) using DIRECT
+19:51:54.108    Info: [TCP] 127.0.0.1:58146 --> content-autofill.googleapis.com:443 match Match() using 动态住宅
+19:51:56.028    Info: [TCP] 127.0.0.1:58172 --> play.google.com:443 match Match() using 动态住宅
+19:51:56.031    Info: [TCP] 127.0.0.1:58162 --> play.google.com:443 match Match() using 动态住宅
+19:52:01.218 Warning: [TCP] dial DIRECT (match DstPort/9528) to 47.76.162.111:9528 error: dial tcp4 47.76.162.111:9528: connect: connection refused
+19:52:01.432    Info: [TCP] 127.0.0.1:58186 --> accounts.youtube.com:443 match DomainSuffix(accounts.youtube.com) using DIRECT
+19:52:01.695    Info: [TCP] 127.0.0.1:58192 --> accounts.google.co.id:443 match Match() using 动态住宅
+19:52:02.249    Info: [TCP] 127.0.0.1:56172 --> accounts.google.com.hk:443 match Match() using 动态住宅
+19:52:02.406    Info: [TCP] 127.0.0.1:56186 --> accounts.google.com:443 match Match() using 动态住宅
+19:52:03.114    Info: [TCP] 127.0.0.1:56194 --> mail.google.com:443 match Match() using 动态住宅
+19:52:04.876    Info: [TCP] 127.0.0.1:56204 --> play.google.com:443 match Match() using 动态住宅
+19:52:05.998    Info: [TCP] 127.0.0.1:56214 --> play.google.com:443 match Match() using 动态住宅
+19:52:14.658    Info: [TCP] 127.0.0.1:52030 --> content-autofill.googleapis.com:443 match Match() using 动态住宅
+19:52:16.659    Info: [TCP] 127.0.0.1:52032 --> www.google.com:443 match Match() using 动态住宅
+19:52:17.216    Info: [TCP] 127.0.0.1:52034 --> ssl.gstatic.com:443 match DomainSuffix(gstatic.com) using DIRECT
+19:52:19.170    Info: [TCP] 127.0.0.1:52052 --> lh3.google.com:443 match Domain(lh3.google.com) using DIRECT
+19:52:19.293    Info: [TCP] 127.0.0.1:52066 --> lh3.googleusercontent.com:443 match DomainSuffix(lh3.googleusercontent.com) using DIRECT
+19:52:19.301    Info: [TCP] 127.0.0.1:52080 --> ad.doubleclick.net:443 match Domain(ad.doubleclick.net) using DIRECT
+19:52:19.310    Info: [TCP] 127.0.0.1:52094 --> www.googleadservices.com:443 match DomainSuffix(www.googleadservices.com) using DIRECT
+19:52:19.450    Info: [TCP] 127.0.0.1:52038 --> www.gstatic.com:443 match DomainSuffix(gstatic.com) using DIRECT
+19:52:19.452    Info: [TCP] 127.0.0.1:52122 --> googleads.g.doubleclick.net:443 match DomainSuffix(googleads.g.doubleclick.net) using DIRECT
+19:52:19.488    Info: [TCP] 127.0.0.1:52132 --> googleads.g.doubleclick.net:443 match DomainSuffix(googleads.g.doubleclick.net) using DIRECT
+19:52:19.490    Info: [TCP] 127.0.0.1:52134 --> www.googleadservices.com:443 match DomainSuffix(www.googleadservices.com) using DIRECT
+19:52:19.494    Info: [TCP] 127.0.0.1:52144 --> googleads.g.doubleclick.net:443 match DomainSuffix(googleads.g.doubleclick.net) using DIRECT
+19:52:19.496    Info: [TCP] 127.0.0.1:52160 --> googleads.g.doubleclick.net:443 match DomainSuffix(googleads.g.doubleclick.net) using DIRECT
+19:52:19.504    Info: [TCP] 127.0.0.1:52164 --> www.googleadservices.com:443 match DomainSuffix(www.googleadservices.com) using DIRECT
+19:52:19.522    Info: [TCP] 127.0.0.1:52176 --> www.googleadservices.com:443 match DomainSuffix(www.googleadservices.com) using DIRECT
+19:52:19.534    Info: [TCP] 127.0.0.1:52180 --> www.googleadservices.com:443 match DomainSuffix(www.googleadservices.com) using DIRECT
+19:52:19.649    Info: [TCP] 127.0.0.1:52106 --> adservice.google.com:443 match DomainSuffix(adservice.google.com) using DIRECT
+19:52:19.782    Info: [TCP] 127.0.0.1:52098 --> www.gstatic.com:443 match DomainSuffix(gstatic.com) using DIRECT
+19:52:19.919    Info: [TCP] 127.0.0.1:52196 --> www.google.co.id:443 match Match() using 动态住宅
+19:52:19.921    Info: [TCP] 127.0.0.1:52192 --> www.google.co.id:443 match Match() using 动态住宅
+19:52:19.951    Info: [TCP] 127.0.0.1:52200 --> www.google.co.id:443 match Match() using 动态住宅
+19:52:20.001    Info: [TCP] 127.0.0.1:52202 --> www.google.co.id:443 match Match() using 动态住宅
+19:52:20.069    Info: [TCP] 127.0.0.1:52186 --> www.gstatic.com:443 match DomainSuffix(gstatic.com) using DIRECT
+19:52:20.082    Info: [TCP] 127.0.0.1:52208 --> update.googleapis.com:443 match Match() using 动态住宅
+19:52:20.159    Info: [TCP] 127.0.0.1:52216 --> android.clients.google.com:443 match Match() using 动态住宅
+19:52:20.170    Info: [TCP] 127.0.0.1:52238 --> play.googleapis.com:443 match Match() using 动态住宅
+19:52:20.174    Info: [TCP] 127.0.0.1:52230 --> play.googleapis.com:443 match Match() using 动态住宅
+19:52:21.761    Info: [TCP] 127.0.0.1:52252 --> ogads-pa.clients6.google.com:443 match DomainSuffix(ogads-pa.clients6.google.com) using DIRECT
+19:52:21.870    Info: [TCP] 127.0.0.1:52270 --> ogads-pa.clients6.google.com:443 match DomainSuffix(ogads-pa.clients6.google.com) using DIRECT
+19:52:21.971    Info: [TCP] 127.0.0.1:52260 --> apis.google.com:443 match DomainSuffix(apis.google.com) using DIRECT
+19:52:22.958    Info: [TCP] 127.0.0.1:48854 --> appsgrowthpromo-pa.clients6.google.com:443 match DomainSuffix(appsgrowthpromo-pa.clients6.google.com) using DIRECT
+19:52:23.030    Info: [TCP] 127.0.0.1:48858 --> appsgrowthpromo-pa.clients6.google.com:443 match DomainSuffix(appsgrowthpromo-pa.clients6.google.com) using DIRECT
+19:52:23.253    Info: [TCP] 127.0.0.1:48848 --> csi.gstatic.com:443 match DomainSuffix(gstatic.com) using DIRECT
+19:52:23.253    Info: [TCP] 127.0.0.1:48850 --> csi.gstatic.com:443 match DomainSuffix(gstatic.com) using DIRECT
+19:52:25.121    Info: [TCP] 127.0.0.1:48864 --> play.googleapis.com:443 match Match() using 动态住宅
+19:52:26.405    Info: [TCP] 127.0.0.1:48876 --> peoplestackwebexperiments-pa.clients6.google.com:443 match DomainSuffix(peoplestackwebexperiments-pa.clients6.google.com) using DIRECT
+19:52:26.447    Info: [TCP] 127.0.0.1:48886 --> peoplestack-pa.clients6.google.com:443 match DomainSuffix(peoplestack-pa.clients6.google.com) using DIRECT
+19:52:26.525    Info: [TCP] 127.0.0.1:48900 --> peoplestackwebexperiments-pa.clients6.google.com:443 match DomainSuffix(peoplestackwebexperiments-pa.clients6.google.com) using DIRECT
+19:52:26.529    Info: [TCP] 127.0.0.1:48910 --> peoplestack-pa.clients6.google.com:443 match DomainSuffix(peoplestack-pa.clients6.google.com) using DIRECT
+19:52:27.315    Info: [TCP] 127.0.0.1:48916 --> mail-ads.google.com:443 match DomainSuffix(mail-ads.google.com) using DIRECT
+19:52:27.333    Info: [TCP] 127.0.0.1:48924 --> edgedl.me.gvt1.com:80 match DomainSuffix(gvt1.com) using DIRECT
+19:52:27.527    Info: [TCP] 127.0.0.1:48936 --> mail-ads.google.com:443 match DomainSuffix(mail-ads.google.com) using DIRECT
+19:52:28.162    Info: [TCP] 127.0.0.1:48952 --> play.google.com:443 match Match() using 动态住宅
+19:52:28.248    Info: [TCP] 127.0.0.1:48962 --> addons-pa.clients6.google.com:443 match DomainSuffix(addons-pa.clients6.google.com) using DIRECT
+19:52:28.920    Info: [TCP] 127.0.0.1:48978 --> addons-pa.clients6.google.com:443 match DomainSuffix(addons-pa.clients6.google.com) using DIRECT
+19:52:29.410    Info: [TCP] 127.0.0.1:48990 --> fonts.gstatic.com:443 match DomainSuffix(gstatic.com) using DIRECT
+19:52:29.726    Info: [TCP] 127.0.0.1:48996 --> www.gstatic.com:443 match DomainSuffix(gstatic.com) using DIRECT
+19:52:31.324    Info: [TCP] 127.0.0.1:49006 --> signaler-pa.clients6.google.com:443 match Match() using 动态住宅
+19:52:31.331    Info: [TCP] 127.0.0.1:49002 --> www.gstatic.com:443 match DomainSuffix(gstatic.com) using DIRECT
+19:52:31.402    Info: [TCP] 127.0.0.1:49020 --> content-autofill.googleapis.com:443 match Match() using 动态住宅
+19:52:31.923    Info: [TCP] 127.0.0.1:49026 --> ssl.gstatic.com:443 match DomainSuffix(gstatic.com) using DIRECT
+19:52:37.162    Info: [TCP] 127.0.0.1:49296 --> people-pa.clients6.google.com:443 match DomainSuffix(people-pa.clients6.google.com) using DIRECT
+19:52:37.253    Info: [TCP] 127.0.0.1:49300 --> people-pa.clients6.google.com:443 match DomainSuffix(people-pa.clients6.google.com) using DIRECT
+19:52:37.288    Info: [TCP] 127.0.0.1:49288 --> signaler-pa.clients6.google.com:443 match Match() using 动态住宅
+19:52:38.835    Info: [TCP] 127.0.0.1:49308 --> lh3.googleusercontent.com:443 match DomainSuffix(lh3.googleusercontent.com) using DIRECT
+19:52:41.231 Warning: [TCP] dial DIRECT (match DstPort/9528) to 47.76.162.111:9528 error: dial tcp4 47.76.162.111:9528: connect: connection refused
+19:52:41.507    Info: [TCP] 127.0.0.1:49324 --> android.bugly.qq.com:443 match Domain(android.bugly.qq.com) using DIRECT
+19:52:44.232    Info: [TCP] 127.0.0.1:50294 --> mail.google.com:443 match Match() using 动态住宅
+19:52:45.296    Info: [TCP] 127.0.0.1:50306 --> edgedl.me.gvt1.com:80 match DomainSuffix(gvt1.com) using DIRECT
+19:52:45.537    Info: [TCP] 127.0.0.1:50308 --> update.googleapis.com:443 match Match() using 动态住宅
+19:52:46.428    Info: [TCP] 127.0.0.1:50322 --> content-autofill.googleapis.com:443 match Match() using 动态住宅
+19:52:47.091    Info: [TCP] 127.0.0.1:50334 --> ssl.gstatic.com:443 match DomainSuffix(gstatic.com) using DIRECT
+19:52:47.160    Info: [TCP] 127.0.0.1:50324 --> www.google.com:443 match Match() using 动态住宅
+19:52:47.163    Info: [TCP] 127.0.0.1:50342 --> ssl.gstatic.com:443 match DomainSuffix(gstatic.com) using DIRECT
+19:52:47.172    Info: [TCP] 127.0.0.1:50344 --> ssl.gstatic.com:443 match DomainSuffix(gstatic.com) using DIRECT
+19:52:47.313    Info: [TCP] 127.0.0.1:50340 --> www.google.com:443 match Match() using 动态住宅
+19:52:47.321    Info: [TCP] 127.0.0.1:50352 --> www.google.com:443 match Match() using 动态住宅
+19:52:47.328    Info: [TCP] 127.0.0.1:50358 --> update.googleapis.com:443 match Match() using 动态住宅
+19:52:47.479    Info: [TCP] 127.0.0.1:50364 --> mail.google.com:443 match Match() using 动态住宅
+19:52:47.752    Info: [TCP] 127.0.0.1:50372 --> www.gstatic.com:443 match DomainSuffix(gstatic.com) using DIRECT
+19:52:48.534    Info: [TCP] 127.0.0.1:50382 --> mail.google.com:443 match Match() using 动态住宅
+19:52:48.905    Info: [TCP] 127.0.0.1:50396 --> edgedl.me.gvt1.com:80 match DomainSuffix(gvt1.com) using DIRECT
+19:52:49.256    Info: [TCP] 127.0.0.1:50412 --> content-autofill.googleapis.com:443 match Match() using 动态住宅
+19:52:49.275    Info: [TCP] 127.0.0.1:50414 --> play.google.com:443 match Match() using 动态住宅
+19:52:49.592    Info: [TCP] 127.0.0.1:50430 --> play.google.com:443 match Match() using 动态住宅
+19:52:57.224    Info: [TCP] 127.0.0.1:35202 --> www.gstatic.com:443 match DomainSuffix(gstatic.com) using DIRECT
+19:52:57.749    Info: [TCP] 127.0.0.1:35208 --> ssl.gstatic.com:443 match DomainSuffix(gstatic.com) using DIRECT
+19:52:58.745    Info: [TCP] 127.0.0.1:35224 --> www.gstatic.com:443 match DomainSuffix(gstatic.com) using DIRECT
+19:53:00.463    Info: [TCP] 127.0.0.1:35246 --> fonts.gstatic.com:443 match DomainSuffix(gstatic.com) using DIRECT
+19:53:00.593    Info: [TCP] 127.0.0.1:35232 --> accounts.google.com:443 match Match() using 动态住宅
+19:53:00.784    Info: [TCP] 127.0.0.1:35262 --> www.gstatic.com:443 match DomainSuffix(gstatic.com) using DIRECT
+19:53:02.707    Info: [TCP] 172.19.0.1:36142 --> android.bugly.qq.com:443 match Domain(android.bugly.qq.com) using DIRECT
+19:53:06.558    Info: [TCP] 127.0.0.1:42466 --> lh3.googleusercontent.com:443 match DomainSuffix(lh3.googleusercontent.com) using DIRECT
+19:53:11.571    Info: [TCP] 127.0.0.1:42474 --> accounts.youtube.com:443 match DomainSuffix(accounts.youtube.com) using DIRECT
+19:53:11.803    Info: [TCP] 127.0.0.1:42490 --> accounts.google.co.id:443 match Match() using 动态住宅
+19:53:12.485    Info: [TCP] 127.0.0.1:48640 --> accounts.google.com.hk:443 match Match() using 动态住宅
+19:53:14.535    Info: [TCP] 127.0.0.1:48652 --> csp.withgoogle.com:443 match Match() using 动态住宅
+19:53:15.791    Info: [TCP] 127.0.0.1:48658 --> mail-settings.google.com:443 match DomainSuffix(mail-settings.google.com) using DIRECT
+19:53:15.793    Info: [TCP] 127.0.0.1:48664 --> mail-settings.google.com:443 match DomainSuffix(mail-settings.google.com) using DIRECT
+19:53:19.814    Info: [TCP] 127.0.0.1:48668 --> ogs.google.com:443 match DomainSuffix(ogs.google.com) using DIRECT
+19:53:21.245 Warning: [TCP] dial DIRECT (match DstPort/9528) to 47.76.162.111:9528 error: dial tcp4 47.76.162.111:9528: connect: connection refused
+19:53:21.305    Info: [TCP] 172.19.0.1:46438 --> dwmail.link:8030 match DomainSuffix(dwmail.link) using DIRECT
+19:53:23.686    Info: [TCP] 127.0.0.1:54252 --> www.gmail.com:443 match Match() using 动态住宅
+19:53:24.666    Info: [TCP] 127.0.0.1:54250 --> www.gmail.com:443 match Match() using 动态住宅
+19:53:24.677    Info: [TCP] 127.0.0.1:54266 --> www.gmail.com:443 match Match() using 动态住宅
+19:53:24.687    Info: [TCP] 127.0.0.1:54268 --> www.gmail.com:443 match Match() using 动态住宅
+19:53:33.187    Info: [TCP] 127.0.0.1:56954 --> lh3.google.com:443 match Domain(lh3.google.com) using DIRECT
+19:53:33.241    Info: [TCP] 127.0.0.1:56970 --> ogads-pa.clients6.google.com:443 match DomainSuffix(ogads-pa.clients6.google.com) using DIRECT
+19:53:38.652    Info: [TCP] 127.0.0.1:56974 --> appsgrowthpromo-pa.clients6.google.com:443 match DomainSuffix(appsgrowthpromo-pa.clients6.google.com) using DIRECT
+19:53:49.400    Info: [TCP] 127.0.0.1:36224 --> openapi-hk.armcloud.net:80 match Domain(openapi-hk.armcloud.net) using DIRECT
+19:53:50.180    Info: [TCP] 127.0.0.1:36236 --> event.vmoscloud.com:443 match DomainKeyword(vmoscloud) using DIRECT
+19:54:01.260 Warning: [TCP] dial DIRECT (match DstPort/9528) to 47.76.162.111:9528 error: dial tcp4 47.76.162.111:9528: connect: connection refused
+19:54:03.629    Info: [TCP] 127.0.0.1:39726 --> mail.google.com:443 match Match() using 动态住宅
+19:54:10.971    Info: [TCP] 127.0.0.1:39734 --> peoplestack-pa.clients6.google.com:443 match DomainSuffix(peoplestack-pa.clients6.google.com) using DIRECT
+19:54:16.701    Info: [TCP] 127.0.0.1:45972 --> mail-ads.google.com:443 match DomainSuffix(mail-ads.google.com) using DIRECT
+19:54:16.911    Info: [TCP] 127.0.0.1:45976 --> mail-ads.google.com:443 match DomainSuffix(mail-ads.google.com) using DIRECT
+19:54:25.219    Info: [TCP] 127.0.0.1:41768 --> addons-pa.clients6.google.com:443 match DomainSuffix(addons-pa.clients6.google.com) using DIRECT
+19:54:32.147    Info: [TCP] 127.0.0.1:46814 --> signaler-pa.clients6.google.com:443 match Match() using 动态住宅
+19:54:33.142    Info: [TCP] 127.0.0.1:46828 --> signaler-pa.clients6.google.com:443 match Match() using 动态住宅
+19:54:41.280 Warning: [TCP] dial DIRECT (match DstPort/9528) to 47.76.162.111:9528 error: dial tcp4 47.76.162.111:9528: connect: connection refused
+19:54:47.637    Info: [TCP] 127.0.0.1:43742 --> optimizationguide-pa.googleapis.com:443 match Match() using 动态住宅
+19:54:47.942    Info: [TCP] 127.0.0.1:43756 --> optimizationguide-pa.googleapis.com:443 match Match() using 动态住宅
+19:55:02.215    Info: [TCP] 127.0.0.1:48492 --> people-pa.clients6.google.com:443 match DomainSuffix(people-pa.clients6.google.com) using DIRECT
+19:55:13.154    Info: [TCP] 172.19.0.1:35092 --> lx.jichengfz.top:80 match Match() using 动态住宅
+19:55:19.314    Info: [TCP] 172.19.0.1:35104 --> lx.jichengfz.top:80 match Match() using 动态住宅
+19:55:21.294 Warning: [TCP] dial DIRECT (match DstPort/9528) to 47.76.162.111:9528 error: dial tcp4 47.76.162.111:9528: connect: connection refused
+19:55:24.362    Info: [TCP] 127.0.0.1:59218 --> lrcc.hexiny.com:80 match Match() using 动态住宅

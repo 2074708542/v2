@@ -164,6 +164,7 @@ rules:
   - IP-CIDR,120.26.237.92/24,DIRECT
   - DOMAIN-SUFFIX,jichengfz.top,DIRECT
 
+  - DOMAIN,play-lh.googleusercontent.com,DIRECT
   # - DOMAIN-SUFFIX,mail-settings.google.com,DIRECT
   - DOMAIN-KEYWORD,vmoscloud,DIRECT
   - DST-PORT,9528,DIRECT
@@ -195,7 +196,7 @@ rules:
   - DOMAIN-KEYWORD,fonts,DIRECT
   - DOMAIN,play-lh.googleusercontent.com,DIRECT
 
-  #非常有疑点
+  #非常有疑点14点版
   - DOMAIN,android.googleapis,DIRECT
   - DOMAIN,people-pa.googleapis.com,DIRECT
   - DOMAIN,footprints-pa.googleapis.com,DIRECT
@@ -205,4 +206,13 @@ rules:
   - DOMAIN,firebaseperusertopics-pa.googleapis.com,DIRECT
   - DOMAIN,ryptauthenrollment.googleapis.com,DIRECT
   - DOMAIN,reminders-pa.googleapis.com,DIRECT
+  #非常有疑点点版
+  - DOMAIN,cryptauthdevicesync.googleapis.com,DIRECT
+  - DOMAIN,cryptauthenrollment.googleapis.com,DIRECT
+  - DOMAIN,playatoms-pa.googleapis.com,DIRECT
+  - DOMAIN,play.googleapis.com,DIRECT
+  - DOMAIN,clientservices.googleapis.com,DIRECT
+  - DOMAIN,clients2.google.com,DIRECT
+  - DOMAIN,www.googleapis.com,DIRECT
+
   - MATCH,动态住宅

@@ -193,5 +193,6 @@ rules:
   - DOMAIN,static.xx.fbcdn.net,DIRECT
   - DOMAIN,history.google.com,DIRECT
   - DOMAIN-KEYWORD,fonts,DIRECT
+  - DOMAIN,play-lh.googleusercontent.com,DIRECT
   
   - MATCH,动态住宅

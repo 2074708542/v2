@@ -194,5 +194,15 @@ rules:
   - DOMAIN,history.google.com,DIRECT
   - DOMAIN-KEYWORD,fonts,DIRECT
   - DOMAIN,play-lh.googleusercontent.com,DIRECT
-  
+
+  #非常有疑点
+  - DOMAIN,android.googleapis,DIRECT
+  - DOMAIN,people-pa.googleapis.com,DIRECT
+  - DOMAIN,footprints-pa.googleapis.com,DIRECT
+  - DOMAIN,play-fe.googleapis.com,DIRECT
+  - DOMAIN,chromesyncpasswords-pa.googleapis.com,DIRECT
+  - DOMAIN,www.googleapis.com,DIRECT
+  - DOMAIN,firebaseperusertopics-pa.googleapis.com,DIRECT
+  - DOMAIN,ryptauthenrollment.googleapis.com,DIRECT
+  - DOMAIN,reminders-pa.googleapis.com,DIRECT
   - MATCH,动态住宅

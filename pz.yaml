@@ -164,13 +164,35 @@ rules:
   - IP-CIDR,120.26.237.92/24,DIRECT
   - DOMAIN-SUFFIX,jichengfz.top,DIRECT
 
+  #js 静态文件
+  - DOMAIN-KEYWORD,youtube,DIRECT
+  - DOMAIN-KEYWORD,facebook,DIRECT
+  - DOMAIN,ms.bdstatic.com,DIRECT
+  - DOMAIN,sv.bdstatic.com,DIRECT
+  - DOMAIN,www.fbsbx.com,DIRECT
+  - DOMAIN,static.xx.fbcdn.net,DIRECT
+  - DOMAIN,psstatic.cdn.bcebos.com,DIRECT
+  - DOMAIN,rr2---sn-ipoxu-3iik.gvt1.com,DIRECT
+  - DOMAIN,beacons.gcp.gvt2.com,DIRECT
+  - DOMAIN,beacons5.gvt3.com,DIRECT
+  - DOMAIN,middledata.ldmnq.com,DIRECT
+  - DOMAIN,translate.googleapis.com,DIRECT
+
+  #可疑
+  - DOMAIN,wallet.google.com,DIRECT
+  - DOMAIN,ad.doubleclick.net,DIRECT 
+  - DOMAIN,accounts.doubleclick.net,DIRECT
+  - DOMAIN,static.xx.fbcdn.net,DIRECT
+  - DOMAIN,history.google.com,DIRECT
+  - DOMAIN-KEYWORD,fonts,DIRECT
+  - DOMAIN-SUFFIX,saasvideo.cn,DIRECT
+  - DOMAIN,content-autofill.googleapis.com,DIRECT
+
   - DOMAIN,play-lh.googleusercontent.com,DIRECT
-  # - DOMAIN-SUFFIX,mail-settings.google.com,DIRECT
   - DOMAIN-KEYWORD,vmoscloud,DIRECT
   - DST-PORT,9528,DIRECT
   - DOMAIN,openapi-hk.armcloud.net,DIRECT
   - DOMAIN,android.bugly.qq.com,DIRECT
-  - DOMAIN,m.youtube.com,DIRECT
   #猜测为谷歌搜索页面
   - DOMAIN,images-na.ssl-images-amazon.com,DIRECT
   - DOMAIN,en.m.wikipedia.org,DIRECT
@@ -183,36 +205,28 @@ rules:
   - DOMAIN,assets.cpcdn.com,DIRECT
   - DOMAIN,am.olx.biz.id,DIRECT
   - DOMAIN,yt3.ggpht.com,DIRECT
-  #- DOMAIN,,DIRECT
-  #有疑点
-  - DOMAIN,wallet.google.com,DIRECT
-  - DOMAIN,ad.doubleclick.net,DIRECT 
-  - DOMAIN,accounts.doubleclick.net,DIRECT
-  - DOMAIN,lh3.google.com,DIRECT
-  - DOMAIN,android.clients.google.com,DIRECT
-  - DOMAIN,clientservices,DIRECT
-  - DOMAIN,static.xx.fbcdn.net,DIRECT
-  - DOMAIN,history.google.com,DIRECT
-  - DOMAIN-KEYWORD,fonts,DIRECT
-  - DOMAIN,play-lh.googleusercontent.com,DIRECT
-
-  #非常有疑点14点版
-  - DOMAIN,android.googleapis,DIRECT
-  - DOMAIN,people-pa.googleapis.com,DIRECT
-  - DOMAIN,footprints-pa.googleapis.com,DIRECT
-  - DOMAIN,play-fe.googleapis.com,DIRECT
-  - DOMAIN,chromesyncpasswords-pa.googleapis.com,DIRECT
-  - DOMAIN,www.googleapis.com,DIRECT
-  - DOMAIN,firebaseperusertopics-pa.googleapis.com,DIRECT
-  - DOMAIN,ryptauthenrollment.googleapis.com,DIRECT
-  - DOMAIN,reminders-pa.googleapis.com,DIRECT
-  #非常有疑点点版
-  - DOMAIN,cryptauthdevicesync.googleapis.com,DIRECT
-  - DOMAIN,cryptauthenrollment.googleapis.com,DIRECT
-  - DOMAIN,playatoms-pa.googleapis.com,DIRECT
-  - DOMAIN,play.googleapis.com,DIRECT
-  - DOMAIN,clientservices.googleapis.com,DIRECT
-  - DOMAIN,clients2.google.com,DIRECT
-  - DOMAIN,www.googleapis.com,DIRECT
+  #非常有疑点
+  # - DOMAIN,android.googleapis,DIRECT
+  # - DOMAIN,people-pa.googleapis.com,DIRECT
+  # - DOMAIN,footprints-pa.googleapis.com,DIRECT
+  # - DOMAIN,chromesyncpasswords-pa.googleapis.com,DIRECT
+  # - DOMAIN,www.googleapis.com,DIRECT
+  # - DOMAIN,firebaseperusertopics-pa.googleapis.com,DIRECT
+  # - DOMAIN,ryptauthenrollment.googleapis.com,DIRECT
+  # - DOMAIN,reminders-pa.googleapis.com,DIRECT
+  # - DOMAIN,cryptauthdevicesync.
+  # - DOMAIN,signaler-pa.clients6.google.com,DIRECT
+  # - DOMAIN-SUFFIX,mail-settings.google.com,DIRECT
+  # - DOMAIN,lh3.google.com,DIRECT
+  # - DOMAIN,android.clients.google.com,DIRECT
+  # - DOMAIN,clientservices,DIRECT
+  # - DOMAIN,cryptauthenrollment.googleapis.com,DIRECT
+  # - DOMAIN,playatoms-pa.googleapis.com,DIRECT
+  # - DOMAIN,play.googleapis.com,DIRECT
+  # - DOMAIN,clientservices.googleapis.com,DIRECT
+  # - DOMAIN,clients2.google.com,DIRECT
+  # - DOMAIN,www.googleapis.com,DIRECT
+  # - DOMAIN,accounts.google.com,DIRECT
+  # - DOMAIN,optimizationguide-pa.googleapis.com,DIRECT
 
   - MATCH,动态住宅

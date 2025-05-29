@@ -97,7 +97,7 @@ proxies:
     type: socks5
     server: na.dcfba5b55f4f7054.ipmars.vip
     port: 4900
-    username: WRY2aRyDmi-zone-mars-region-CA
+    username: WRY2aRyDmi-zone-mars-region-ID
     password: 43560082
   - name: "id03 - 5 - 韩国"
     type: ss

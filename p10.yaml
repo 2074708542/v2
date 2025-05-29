@@ -96,9 +96,9 @@ proxies:
 
   - name: 动态住宅
     type: socks5
-    server: vmByasjkd:7543a652ba45450c.fkz.as.ipidea.online
+    server: 7543a652ba45450c.fkz.as.ipidea.online
     port: 2333
-    username: zvmByasjkd-zone-custom-region-id-session-244i1t47b-sessTime-6
+    username: vmByasjkd-zone-custom-region-id-session-244i1t47b-sessTime-6
     password: vmByasjkd
   - name: "id03 - 5 - 韩国"
     type: ss

@@ -199,23 +199,23 @@ rules:
   - DOMAIN-SUFFIX,saasvideo.cn,DIRECT
   - DOMAIN,content-autofill.googleapis.com,DIRECT
 
-  # - DOMAIN,play-lh.googleusercontent.com,DIRECT
-  # - DOMAIN-KEYWORD,vmoscloud,DIRECT
-  # - DST-PORT,9528,DIRECT
-  # - DOMAIN,openapi-hk.armcloud.net,DIRECT
-  # - DOMAIN,android.bugly.qq.com,DIRECT
+  - DOMAIN,play-lh.googleusercontent.com,DIRECT
+  - DOMAIN-KEYWORD,vmoscloud,DIRECT
+  - DST-PORT,9528,DIRECT
+  - DOMAIN,openapi-hk.armcloud.net,DIRECT
+  - DOMAIN,android.bugly.qq.com,DIRECT
   #猜测为谷歌搜索页面
-  # - DOMAIN,images-na.ssl-images-amazon.com,DIRECT
-  # - DOMAIN,en.m.wikipedia.org,DIRECT
-  # - DOMAIN,ir.ebaystatic.com,DIRECT
-  # - DOMAIN,www.instagram.com,DIRECT
-  # - DOMAIN,a.espncdn.com,DIRECT
-  # - DOMAIN,cdn.detik.net.id,DIRECT
-  # - DOMAIN,abs-0.twimg.com,DIRECT
-  # - DOMAIN,styleguide.brainly.co.id,DIRECT
-  # - DOMAIN,assets.cpcdn.com,DIRECT
-  # - DOMAIN,am.olx.biz.id,DIRECT
-  # - DOMAIN,yt3.ggpht.com,DIRECT
+  - DOMAIN,images-na.ssl-images-amazon.com,DIRECT
+  - DOMAIN,en.m.wikipedia.org,DIRECT
+  - DOMAIN,ir.ebaystatic.com,DIRECT
+  - DOMAIN,www.instagram.com,DIRECT
+  - DOMAIN,a.espncdn.com,DIRECT
+  - DOMAIN,cdn.detik.net.id,DIRECT
+  - DOMAIN,abs-0.twimg.com,DIRECT
+  - DOMAIN,styleguide.brainly.co.id,DIRECT
+  - DOMAIN,assets.cpcdn.com,DIRECT
+  - DOMAIN,am.olx.biz.id,DIRECT
+  - DOMAIN,yt3.ggpht.com,DIRECT
   #非常有疑点
   # - DOMAIN,android.googleapis,DIRECT
   # - DOMAIN,people-pa.googleapis.com,DIRECT

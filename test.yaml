@@ -105,7 +105,7 @@ proxy-groups:
   - name: output
     type: select
     proxies:
-      - "id03 - 5 - 韩国"
+      - 'id13 - 3 - 韩国'
       - 动态住宅
       - DIRECT
 # 规则

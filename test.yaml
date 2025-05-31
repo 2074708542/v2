@@ -89,9 +89,9 @@ proxies:
     port: 4900
     username: WRY2aRyDmi-zone-mars-region-ID
     password: 43560082
-  - name: "id03 - 5 - 韩国"
+  - name: 'id13 - 3 - 韩国'
     type: ss
-    server: 120.238.76.202
+    server: cn01.1piece.icu
     port: 27013
     cipher: aes-128-gcm
     password: mL5aR2

@@ -85,10 +85,10 @@ proxies:
   # as.dcfba5b55f4f7054.ipmars.vip:4900:zhangchux-zone-mars-region-ID:564873531
   - name: 动态住宅
     type: socks5
-    server: as.dcfba5b55f4f7054.ipmars.vip
+    server: na.dcfba5b55f4f7054.ipmars.vip
     port: 4900
-    username: zhangchux-zone-mars-region-ID
-    password: 564873531
+    username: WRY2aRyDmi-zone-mars-region-ID
+    password: 43560082
   - name: "id03 - 5 - 韩国"
     type: ss
     server: 120.238.76.202
@@ -97,15 +97,15 @@ proxies:
     password: mL5aR2
     udp: true
 proxy-groups:
-  # - name: relay⏭
-  #   type: relay
-  #   proxies:
-  #     - output
-  #     - 动态住宅
+  - name: relay⏭
+    type: relay
+    proxies:
+      - output
+      - 动态住宅
   - name: output
     type: select
     proxies:
-      # - "id03 - 5 - 韩国"
+      - "id03 - 5 - 韩国"
       - 动态住宅
       - DIRECT
 # 规则

@@ -85,10 +85,10 @@ proxies:
   # as.dcfba5b55f4f7054.ipmars.vip:4900:ceshi4564-zone-mars-region-ID:asdashes64321
   - name: 动态住宅
     type: socks5
-    server: as.dcfba5b55f4f7054.ipmars.vip
-    port: 4900
-    username: ceshi4564-zone-mars-region-ID
-    password: asdashes64321
+    server: 7543a652ba45450c.fkz.as.ipidea.online
+    port: 2333
+    username: vmByasjkd-zone-custom-region-id
+    password: vmByasjkd
   - name: "id03 - 5 - 韩国"
     type: ss
     server: 120.238.76.202

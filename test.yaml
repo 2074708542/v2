@@ -16,7 +16,7 @@ allow-lan: false
 # bind-address: "*"
 
 # Rule / Global / Direct (默认为 Rule 模式)
-mode: Rule
+mode: Global
 
 # 设置输出日志的等级 (默认为 info)
 # info / warning / error / debug / silent
@@ -97,15 +97,15 @@ proxies:
     password: mL5aR2
     udp: true
 proxy-groups:
-  # - name: relay⏭
-  #   type: relay
-  #   proxies:
-  #     - output
-  #     - 动态住宅
+  - name: relay⏭
+    type: relay
+    proxies:
+      - output
+      - 动态住宅
   - name: output
     type: select
     proxies:
-      # - 'id13 - 3 - 韩国'
+      - 'id13 - 3 - 韩国'
       - 动态住宅
       - DIRECT
 # 规则

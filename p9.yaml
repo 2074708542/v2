@@ -176,6 +176,10 @@ rules:
   - DOMAIN-SUFFIX,jichengfz.top,DIRECT
   - IP-CIDR,106.13.113.119/32,DIRECT
 
+  - DOMAIN,play-lh.googleusercontent.com,DIRECT
+  - DOMAIN-KEYWORD,vmoscloud,DIRECT
+  - DST-PORT,9528,DIRECT
+  - DOMAIN,openapi-hk.armcloud.net,DIRECT
   #js 静态文件
   - DOMAIN-KEYWORD,youtube,DIRECT
   - DOMAIN-KEYWORD,facebook,DIRECT
@@ -188,23 +192,20 @@ rules:
   - DOMAIN,beacons.gcp.gvt2.com,DIRECT
   - DOMAIN,beacons5.gvt3.com,DIRECT
   - DOMAIN,middledata.ldmnq.com,DIRECT
-  - DOMAIN,translate.googleapis.com,DIRECT
+  - DOMAIN-KEYWORD,fonts,DIRECT
 
   #可疑
-  - DOMAIN,wallet.google.com,DIRECT
-  - DOMAIN,ad.doubleclick.net,DIRECT 
-  - DOMAIN,accounts.doubleclick.net,DIRECT
-  - DOMAIN,static.xx.fbcdn.net,DIRECT
-  - DOMAIN,history.google.com,DIRECT
-  - DOMAIN-KEYWORD,fonts,DIRECT
-  - DOMAIN-SUFFIX,saasvideo.cn,DIRECT
-  - DOMAIN,content-autofill.googleapis.com,DIRECT
+  # - DOMAIN,android.bugly.qq.com,DIRECT
+  # - DOMAIN,content-autofill.googleapis.com,DIRECT
+  # - DOMAIN,translate.googleapis.com,DIRECT
+  # - DOMAIN,wallet.google.com,DIRECT
+  # - DOMAIN,history.google.com,DIRECT
+  # - DOMAIN,ad.doubleclick.net,DIRECT 
+  # - DOMAIN,accounts.doubleclick.net,DIRECT
+  # - DOMAIN,static.xx.fbcdn.net,DIRECT
+  # - DOMAIN-SUFFIX,saasvideo.cn,DIRECT
 
-  - DOMAIN,play-lh.googleusercontent.com,DIRECT
-  - DOMAIN-KEYWORD,vmoscloud,DIRECT
-  - DST-PORT,9528,DIRECT
-  - DOMAIN,openapi-hk.armcloud.net,DIRECT
-  - DOMAIN,android.bugly.qq.com,DIRECT
+
   #猜测为谷歌搜索页面
   - DOMAIN,images-na.ssl-images-amazon.com,DIRECT
   - DOMAIN,en.m.wikipedia.org,DIRECT

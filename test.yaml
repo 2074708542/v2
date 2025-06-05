@@ -87,7 +87,7 @@ proxies:
     type: socks5
     server: 7543a652ba45450c.fkz.as.ipidea.online
     port: 2333
-    username: vmByasjkd-zone-custom-region-id
+    username: vmByasjkd-zone-custom-region-ca
     password: vmByasjkd
   - name: 'id13 - 3 - 韩国'
     type: ss
@@ -97,15 +97,15 @@ proxies:
     password: mL5aR2
     udp: true
 proxy-groups:
-  - name: relay⏭
-    type: relay
-    proxies:
-      - output
-      - 动态住宅
+  # - name: relay⏭
+  #   type: relay
+  #   proxies:
+  #     - output
+  #     - 动态住宅
   - name: output
     type: select
     proxies:
-      - 'id13 - 3 - 韩国'
+      # - 'id13 - 3 - 韩国'
       - 动态住宅
       - DIRECT
 # 规则

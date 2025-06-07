@@ -95,7 +95,6 @@ rules:
 
   - DOMAIN,play-lh.googleusercontent.com,DIRECT
   - DOMAIN-KEYWORD,vmoscloud,DIRECT
-  - DST-PORT,9528,DIRECT
   - DOMAIN,openapi-hk.armcloud.net,DIRECT
   #js 静态文件
   - DOMAIN-KEYWORD,youtube,DIRECT

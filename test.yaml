@@ -189,7 +189,7 @@ rules:
   # - DOMAIN,accounts.doubleclick.net,DIRECT
   # - DOMAIN,static.xx.fbcdn.net,DIRECT
   # - DOMAIN-SUFFIX,saasvideo.cn,DIRECT
-
+  - DOMAIN-SUFFIX,mail-settings.google.com,DIRECT
 
   #猜测为谷歌搜索页面
   - DOMAIN,images-na.ssl-images-amazon.com,DIRECT

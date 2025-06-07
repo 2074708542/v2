@@ -110,98 +110,98 @@ proxy-groups:
       - DIRECT
 # 规则
 rules:
-  - DOMAIN-KEYWORD,//mail.google.com/mail/u/,DIRECT
-  - DOMAIN-SUFFIX,adservice.google.com,DIRECT
-  - DOMAIN-SUFFIX,ogs.google.com,DIRECT
-  - DOMAIN-SUFFIX,people-pa.clients6.google.com,DIRECT
-  - DOMAIN-SUFFIX,feedback-pa.clients6.google.com,DIRECT
-  - DOMAIN-SUFFIX,peoplestackwebexperiments-pa.clients6.google.com,DIRECT
-  - DOMAIN-SUFFIX,peoplestack-pa.clients6.google.com,DIRECT
-  - DOMAIN-SUFFIX,mail-seettings.google.com,DIRECT
-  - DOMAIN-SUFFIX,lhe.google.com,DIRECT
-  - DOMAIN-SUFFIX,ogads-pa.clients6.google.com,DIRECT
-  - DOMAIN-SUFFIX,waa-pa.clients6.google.com,DIRECT
-  - DOMAIN-SUFFIX,appsgrowthpromo-pa.clients6.google.com,DIRECT
-  - DOMAIN-SUFFIX,addons-pa.clients6.google.com,DIRECT
-  - DOMAIN-KEYWORD,www.google.com/pagead/,DIRECT
-  - DOMAIN-KEYWORD,www.google.com/js/,DIRECT
-  - DOMAIN-KEYWORD,www.google.com/_/scs/mail-static,DIRECT
-  - DOMAIN-SUFFIX,contacts.google.com,DIRECT
-  - DOMAIN-SUFFIX,googleads.g.doubleclick.net,DIRECT
-  - DOMAIN-SUFFIX,www.googleadservices.com,DIRECT
-  - DOMAIN-SUFFIX,www.google-analytics.com,DIRECT
-  - DOMAIN-SUFFIX,apis.google.com,DIRECT
-  - DOMAIN-SUFFIX,ssl/google-analytics.com,DIRECT
-  - DOMAIN-SUFFIX,www.googletagmanager.com,DIRECT
-  - DOMAIN-SUFFIX,lh3.googleusercontent.com,DIRECT
-  - DOMAIN-SUFFIX,workspace.google.com,DIRECT
-  - DOMAIN-SUFFIX,autonavi.com,DIRECT
-  - DOMAIN-SUFFIX,accounts.youtube.com,DIRECT
-  - DOMAIN-SUFFIX,www.bing.com,DIRECT
-  - DOMAIN-SUFFIX,firefox.fun,DIRECT
-  - DOMAIN-SUFFIX,yimg.com,DIRECT
-  - DOMAIN-SUFFIX,yahoo.com,DIRECT
-  - DOMAIN-SUFFIX,mail-ads.google.com,DIRECT
-  - DOMAIN-SUFFIX,dl.google.com,DIRECT
-  - DOMAIN-SUFFIX,gvt2.com,DIRECT
-  - DOMAIN-SUFFIX,gvt1.com,DIRECT
-  - DOMAIN-SUFFIX,gstatic.com,DIRECT
-  - DOMAIN-SUFFIX,dwmail.link,DIRECT
-  - DOMAIN-SUFFIX,api.haozhuma.com,DIRECT
-  - DOMAIN-SUFFIX,osss1.ikjkxy.fun,DIRECT
-  - DOMAIN-SUFFIX,flowframes.oss-cn-chengdu.aliyuncs.com,DIRECT
-  - DOMAIN-SUFFIX,saasvideo.cn,DIRECT
-  - DOMAIN-SUFFIX,iosvip.ieasyclick.net,REJECT
-  - DOMAIN-SUFFIX,immsg.today,DIRECT
-  - DOMAIN-SUFFIX,aliyuncs.com,DIRECT
-  - IP-CIDR,192.168.0.0/16,DIRECT
-  - IP-CIDR,10.0.0.0/8,DIRECT
-  - IP-CIDR,172.16.0.0/12,DIRECT
-  - IP-CIDR,47.110.79.137/24,DIRECT
-  - IP-CIDR,42.192.3.215/24,DIRECT
-  - IP-CIDR,42.238.190.4/24,DIRECT
-  - IP-CIDR,119.28.179.164/24,DIRECT
-  - IP-CIDR,120.26.237.92/24,DIRECT
-  - DOMAIN-SUFFIX,jichengfz.top,DIRECT
-  - IP-CIDR,106.13.113.119/32,DIRECT
-
-    #js 静态文件
-  - DOMAIN-KEYWORD,youtube,DIRECT
-  - DOMAIN-KEYWORD,facebook,DIRECT
-  - DOMAIN,ms.bdstatic.com,DIRECT
-  - DOMAIN,sv.bdstatic.com,DIRECT
-  - DOMAIN,www.fbsbx.com,DIRECT
-  - DOMAIN,static.xx.fbcdn.net,DIRECT
-  - DOMAIN,psstatic.cdn.bcebos.com,DIRECT
-  - DOMAIN,rr2---sn-ipoxu-3iik.gvt1.com,DIRECT
-  - DOMAIN,beacons.gcp.gvt2.com,DIRECT
-  - DOMAIN,beacons5.gvt3.com,DIRECT
-  - DOMAIN,middledata.ldmnq.com,DIRECT
-  - DOMAIN-KEYWORD,fonts,DIRECT
-
-  #可疑
-  # - DOMAIN,android.bugly.qq.com,DIRECT
-  # - DOMAIN,content-autofill.googleapis.com,DIRECT
-  # - DOMAIN,translate.googleapis.com,DIRECT
-  # - DOMAIN,wallet.google.com,DIRECT
-  # - DOMAIN,history.google.com,DIRECT
-  # - DOMAIN,ad.doubleclick.net,DIRECT 
-  # - DOMAIN,accounts.doubleclick.net,DIRECT
-  # - DOMAIN,static.xx.fbcdn.net,DIRECT
+  # - DOMAIN-KEYWORD,//mail.google.com/mail/u/,DIRECT
+  # - DOMAIN-SUFFIX,adservice.google.com,DIRECT
+  # - DOMAIN-SUFFIX,ogs.google.com,DIRECT
+  # - DOMAIN-SUFFIX,people-pa.clients6.google.com,DIRECT
+  # - DOMAIN-SUFFIX,feedback-pa.clients6.google.com,DIRECT
+  # - DOMAIN-SUFFIX,peoplestackwebexperiments-pa.clients6.google.com,DIRECT
+  # - DOMAIN-SUFFIX,peoplestack-pa.clients6.google.com,DIRECT
+  # - DOMAIN-SUFFIX,mail-seettings.google.com,DIRECT
+  # - DOMAIN-SUFFIX,lhe.google.com,DIRECT
+  # - DOMAIN-SUFFIX,ogads-pa.clients6.google.com,DIRECT
+  # - DOMAIN-SUFFIX,waa-pa.clients6.google.com,DIRECT
+  # - DOMAIN-SUFFIX,appsgrowthpromo-pa.clients6.google.com,DIRECT
+  # - DOMAIN-SUFFIX,addons-pa.clients6.google.com,DIRECT
+  # - DOMAIN-KEYWORD,www.google.com/pagead/,DIRECT
+  # - DOMAIN-KEYWORD,www.google.com/js/,DIRECT
+  # - DOMAIN-KEYWORD,www.google.com/_/scs/mail-static,DIRECT
+  # - DOMAIN-SUFFIX,contacts.google.com,DIRECT
+  # - DOMAIN-SUFFIX,googleads.g.doubleclick.net,DIRECT
+  # - DOMAIN-SUFFIX,www.googleadservices.com,DIRECT
+  # - DOMAIN-SUFFIX,www.google-analytics.com,DIRECT
+  # - DOMAIN-SUFFIX,apis.google.com,DIRECT
+  # - DOMAIN-SUFFIX,ssl/google-analytics.com,DIRECT
+  # - DOMAIN-SUFFIX,www.googletagmanager.com,DIRECT
+  # - DOMAIN-SUFFIX,lh3.googleusercontent.com,DIRECT
+  # - DOMAIN-SUFFIX,workspace.google.com,DIRECT
+  # - DOMAIN-SUFFIX,autonavi.com,DIRECT
+  # - DOMAIN-SUFFIX,accounts.youtube.com,DIRECT
+  # - DOMAIN-SUFFIX,www.bing.com,DIRECT
+  # - DOMAIN-SUFFIX,firefox.fun,DIRECT
+  # - DOMAIN-SUFFIX,yimg.com,DIRECT
+  # - DOMAIN-SUFFIX,yahoo.com,DIRECT
+  # - DOMAIN-SUFFIX,mail-ads.google.com,DIRECT
+  # - DOMAIN-SUFFIX,dl.google.com,DIRECT
+  # - DOMAIN-SUFFIX,gvt2.com,DIRECT
+  # - DOMAIN-SUFFIX,gvt1.com,DIRECT
+  # - DOMAIN-SUFFIX,gstatic.com,DIRECT
+  # - DOMAIN-SUFFIX,dwmail.link,DIRECT
+  # - DOMAIN-SUFFIX,api.haozhuma.com,DIRECT
+  # - DOMAIN-SUFFIX,osss1.ikjkxy.fun,DIRECT
+  # - DOMAIN-SUFFIX,flowframes.oss-cn-chengdu.aliyuncs.com,DIRECT
   # - DOMAIN-SUFFIX,saasvideo.cn,DIRECT
-  - DOMAIN-SUFFIX,mail-settings.google.com,DIRECT
+  # - DOMAIN-SUFFIX,iosvip.ieasyclick.net,REJECT
+  # - DOMAIN-SUFFIX,immsg.today,DIRECT
+  # - DOMAIN-SUFFIX,aliyuncs.com,DIRECT
+  # - IP-CIDR,192.168.0.0/16,DIRECT
+  # - IP-CIDR,10.0.0.0/8,DIRECT
+  # - IP-CIDR,172.16.0.0/12,DIRECT
+  # - IP-CIDR,47.110.79.137/24,DIRECT
+  # - IP-CIDR,42.192.3.215/24,DIRECT
+  # - IP-CIDR,42.238.190.4/24,DIRECT
+  # - IP-CIDR,119.28.179.164/24,DIRECT
+  # - IP-CIDR,120.26.237.92/24,DIRECT
+  # - DOMAIN-SUFFIX,jichengfz.top,DIRECT
+  # - IP-CIDR,106.13.113.119/32,DIRECT
 
-  #猜测为谷歌搜索页面
-  - DOMAIN,images-na.ssl-images-amazon.com,DIRECT
-  - DOMAIN,en.m.wikipedia.org,DIRECT
-  - DOMAIN,ir.ebaystatic.com,DIRECT
-  - DOMAIN,www.instagram.com,DIRECT
-  - DOMAIN,a.espncdn.com,DIRECT
-  - DOMAIN,cdn.detik.net.id,DIRECT
-  - DOMAIN,abs-0.twimg.com,DIRECT
-  - DOMAIN,styleguide.brainly.co.id,DIRECT
-  - DOMAIN,assets.cpcdn.com,DIRECT
-  - DOMAIN,am.olx.biz.id,DIRECT
-  - DOMAIN,yt3.ggpht.com,DIRECT
+  #   #js 静态文件
+  # - DOMAIN-KEYWORD,youtube,DIRECT
+  # - DOMAIN-KEYWORD,facebook,DIRECT
+  # - DOMAIN,ms.bdstatic.com,DIRECT
+  # - DOMAIN,sv.bdstatic.com,DIRECT
+  # - DOMAIN,www.fbsbx.com,DIRECT
+  # - DOMAIN,static.xx.fbcdn.net,DIRECT
+  # - DOMAIN,psstatic.cdn.bcebos.com,DIRECT
+  # - DOMAIN,rr2---sn-ipoxu-3iik.gvt1.com,DIRECT
+  # - DOMAIN,beacons.gcp.gvt2.com,DIRECT
+  # - DOMAIN,beacons5.gvt3.com,DIRECT
+  # - DOMAIN,middledata.ldmnq.com,DIRECT
+  # - DOMAIN-KEYWORD,fonts,DIRECT
+
+  # #可疑
+  # # - DOMAIN,android.bugly.qq.com,DIRECT
+  # # - DOMAIN,content-autofill.googleapis.com,DIRECT
+  # # - DOMAIN,translate.googleapis.com,DIRECT
+  # # - DOMAIN,wallet.google.com,DIRECT
+  # # - DOMAIN,history.google.com,DIRECT
+  # # - DOMAIN,ad.doubleclick.net,DIRECT 
+  # # - DOMAIN,accounts.doubleclick.net,DIRECT
+  # # - DOMAIN,static.xx.fbcdn.net,DIRECT
+  # # - DOMAIN-SUFFIX,saasvideo.cn,DIRECT
+  # - DOMAIN-SUFFIX,mail-settings.google.com,DIRECT
+
+  # #猜测为谷歌搜索页面
+  # - DOMAIN,images-na.ssl-images-amazon.com,DIRECT
+  # - DOMAIN,en.m.wikipedia.org,DIRECT
+  # - DOMAIN,ir.ebaystatic.com,DIRECT
+  # - DOMAIN,www.instagram.com,DIRECT
+  # - DOMAIN,a.espncdn.com,DIRECT
+  # - DOMAIN,cdn.detik.net.id,DIRECT
+  # - DOMAIN,abs-0.twimg.com,DIRECT
+  # - DOMAIN,styleguide.brainly.co.id,DIRECT
+  # - DOMAIN,assets.cpcdn.com,DIRECT
+  # - DOMAIN,am.olx.biz.id,DIRECT
+  # - DOMAIN,yt3.ggpht.com,DIRECT
 
   - MATCH,动态住宅

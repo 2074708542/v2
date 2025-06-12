@@ -17,7 +17,7 @@ proxies:
     port: 2333
     username: vmByasjkd-zone-custom-region-kr
     password: vmByasjkd
-  - name: 'id13 - 3 - 韩国'
+  - name: id13 - 3 - 韩国
     type: ss
     server: cn01.1piece.icu
     port: 27013
@@ -33,94 +33,94 @@ proxy-groups:
   - name: output
     type: select
     proxies:
-      # - 'id13 - 3 - 韩国'
+      # - id13 - 3 - 韩国
       - 动态住宅
       - DIRECT
 # 规则
 rules:
-  - DOMAIN-KEYWORD,//mail.google.com/mail/u/,'id13 - 3 - 韩国'
-  - DOMAIN-SUFFIX,adservice.google.com,'id13 - 3 - 韩国'
-  - DOMAIN-SUFFIX,ogs.google.com,'id13 - 3 - 韩国'
-  - DOMAIN-SUFFIX,people-pa.clients6.google.com,'id13 - 3 - 韩国'
-  - DOMAIN-SUFFIX,feedback-pa.clients6.google.com,'id13 - 3 - 韩国'
-  - DOMAIN-SUFFIX,peoplestackwebexperiments-pa.clients6.google.com,'id13 - 3 - 韩国'
-  - DOMAIN-SUFFIX,peoplestack-pa.clients6.google.com,'id13 - 3 - 韩国'
-  - DOMAIN-SUFFIX,mail-seettings.google.com,'id13 - 3 - 韩国'
-  - DOMAIN-SUFFIX,lhe.google.com,'id13 - 3 - 韩国'
-  - DOMAIN-SUFFIX,ogads-pa.clients6.google.com,'id13 - 3 - 韩国'
-  - DOMAIN-SUFFIX,waa-pa.clients6.google.com,'id13 - 3 - 韩国'
-  - DOMAIN-SUFFIX,appsgrowthpromo-pa.clients6.google.com,'id13 - 3 - 韩国'
-  - DOMAIN-SUFFIX,addons-pa.clients6.google.com,'id13 - 3 - 韩国'
-  - DOMAIN-KEYWORD,www.google.com/pagead/,'id13 - 3 - 韩国'
-  - DOMAIN-KEYWORD,www.google.com/js/,'id13 - 3 - 韩国'
-  - DOMAIN-KEYWORD,www.google.com/_/scs/mail-static,'id13 - 3 - 韩国'
-  - DOMAIN-SUFFIX,contacts.google.com,'id13 - 3 - 韩国'
-  - DOMAIN-SUFFIX,googleads.g.doubleclick.net,'id13 - 3 - 韩国'
-  - DOMAIN-SUFFIX,www.googleadservices.com,'id13 - 3 - 韩国'
-  - DOMAIN-SUFFIX,www.google-analytics.com,'id13 - 3 - 韩国'
-  - DOMAIN-SUFFIX,apis.google.com,'id13 - 3 - 韩国'
-  - DOMAIN-SUFFIX,ssl/google-analytics.com,'id13 - 3 - 韩国'
-  - DOMAIN-SUFFIX,www.googletagmanager.com,'id13 - 3 - 韩国'
-  - DOMAIN-SUFFIX,lh3.googleusercontent.com,'id13 - 3 - 韩国'
-  - DOMAIN-SUFFIX,workspace.google.com,'id13 - 3 - 韩国'
-  - DOMAIN-SUFFIX,autonavi.com,'id13 - 3 - 韩国'
-  - DOMAIN-SUFFIX,accounts.youtube.com,'id13 - 3 - 韩国'
-  - DOMAIN-SUFFIX,www.bing.com,'id13 - 3 - 韩国'
-  - DOMAIN-SUFFIX,firefox.fun,'id13 - 3 - 韩国'
-  - DOMAIN-SUFFIX,yimg.com,'id13 - 3 - 韩国'
-  - DOMAIN-SUFFIX,yahoo.com,'id13 - 3 - 韩国'
-  - DOMAIN-SUFFIX,mail-ads.google.com,'id13 - 3 - 韩国'
-  - DOMAIN-SUFFIX,dl.google.com,'id13 - 3 - 韩国'
-  - DOMAIN-SUFFIX,gvt2.com,'id13 - 3 - 韩国'
-  - DOMAIN-SUFFIX,gvt1.com,'id13 - 3 - 韩国'
-  - DOMAIN-SUFFIX,gstatic.com,'id13 - 3 - 韩国'
-  - DOMAIN-SUFFIX,dwmail.link,'id13 - 3 - 韩国'
-  - DOMAIN-SUFFIX,api.haozhuma.com,'id13 - 3 - 韩国'
-  - DOMAIN-SUFFIX,osss1.ikjkxy.fun,'id13 - 3 - 韩国'
-  - DOMAIN-SUFFIX,flowframes.oss-cn-chengdu.aliyuncs.com,'id13 - 3 - 韩国'
-  - DOMAIN-SUFFIX,saasvideo.cn,'id13 - 3 - 韩国'
+  - DOMAIN-KEYWORD,//mail.google.com/mail/u/,id13 - 3 - 韩国
+  - DOMAIN-SUFFIX,adservice.google.com,id13 - 3 - 韩国
+  - DOMAIN-SUFFIX,ogs.google.com,id13 - 3 - 韩国
+  - DOMAIN-SUFFIX,people-pa.clients6.google.com,id13 - 3 - 韩国
+  - DOMAIN-SUFFIX,feedback-pa.clients6.google.com,id13 - 3 - 韩国
+  - DOMAIN-SUFFIX,peoplestackwebexperiments-pa.clients6.google.com,id13 - 3 - 韩国
+  - DOMAIN-SUFFIX,peoplestack-pa.clients6.google.com,id13 - 3 - 韩国
+  - DOMAIN-SUFFIX,mail-seettings.google.com,id13 - 3 - 韩国
+  - DOMAIN-SUFFIX,lhe.google.com,id13 - 3 - 韩国
+  - DOMAIN-SUFFIX,ogads-pa.clients6.google.com,id13 - 3 - 韩国
+  - DOMAIN-SUFFIX,waa-pa.clients6.google.com,id13 - 3 - 韩国
+  - DOMAIN-SUFFIX,appsgrowthpromo-pa.clients6.google.com,id13 - 3 - 韩国
+  - DOMAIN-SUFFIX,addons-pa.clients6.google.com,id13 - 3 - 韩国
+  - DOMAIN-KEYWORD,www.google.com/pagead/,id13 - 3 - 韩国
+  - DOMAIN-KEYWORD,www.google.com/js/,id13 - 3 - 韩国
+  - DOMAIN-KEYWORD,www.google.com/_/scs/mail-static,id13 - 3 - 韩国
+  - DOMAIN-SUFFIX,contacts.google.com,id13 - 3 - 韩国
+  - DOMAIN-SUFFIX,googleads.g.doubleclick.net,id13 - 3 - 韩国
+  - DOMAIN-SUFFIX,www.googleadservices.com,id13 - 3 - 韩国
+  - DOMAIN-SUFFIX,www.google-analytics.com,id13 - 3 - 韩国
+  - DOMAIN-SUFFIX,apis.google.com,id13 - 3 - 韩国
+  - DOMAIN-SUFFIX,ssl/google-analytics.com,id13 - 3 - 韩国
+  - DOMAIN-SUFFIX,www.googletagmanager.com,id13 - 3 - 韩国
+  - DOMAIN-SUFFIX,lh3.googleusercontent.com,id13 - 3 - 韩国
+  - DOMAIN-SUFFIX,workspace.google.com,id13 - 3 - 韩国
+  - DOMAIN-SUFFIX,autonavi.com,id13 - 3 - 韩国
+  - DOMAIN-SUFFIX,accounts.youtube.com,id13 - 3 - 韩国
+  - DOMAIN-SUFFIX,www.bing.com,id13 - 3 - 韩国
+  - DOMAIN-SUFFIX,firefox.fun,id13 - 3 - 韩国
+  - DOMAIN-SUFFIX,yimg.com,id13 - 3 - 韩国
+  - DOMAIN-SUFFIX,yahoo.com,id13 - 3 - 韩国
+  - DOMAIN-SUFFIX,mail-ads.google.com,id13 - 3 - 韩国
+  - DOMAIN-SUFFIX,dl.google.com,id13 - 3 - 韩国
+  - DOMAIN-SUFFIX,gvt2.com,id13 - 3 - 韩国
+  - DOMAIN-SUFFIX,gvt1.com,id13 - 3 - 韩国
+  - DOMAIN-SUFFIX,gstatic.com,id13 - 3 - 韩国
+  - DOMAIN-SUFFIX,dwmail.link,id13 - 3 - 韩国
+  - DOMAIN-SUFFIX,api.haozhuma.com,id13 - 3 - 韩国
+  - DOMAIN-SUFFIX,osss1.ikjkxy.fun,id13 - 3 - 韩国
+  - DOMAIN-SUFFIX,flowframes.oss-cn-chengdu.aliyuncs.com,id13 - 3 - 韩国
+  - DOMAIN-SUFFIX,saasvideo.cn,id13 - 3 - 韩国
   - DOMAIN-SUFFIX,iosvip.ieasyclick.net,REJECT
-  - DOMAIN-SUFFIX,immsg.today,'id13 - 3 - 韩国'
-  - DOMAIN-SUFFIX,aliyuncs.com,'id13 - 3 - 韩国'
-  - IP-CIDR,192.168.0.0/16,'id13 - 3 - 韩国'
-  - IP-CIDR,10.0.0.0/8,'id13 - 3 - 韩国'
-  - IP-CIDR,172.16.0.0/12,'id13 - 3 - 韩国'
-  - IP-CIDR,47.110.79.137/24,'id13 - 3 - 韩国'
-  - IP-CIDR,42.192.3.215/24,'id13 - 3 - 韩国'
-  - IP-CIDR,42.238.190.4/24,'id13 - 3 - 韩国'
-  - IP-CIDR,119.28.179.164/24,'id13 - 3 - 韩国'
-  - IP-CIDR,120.26.237.92/24,'id13 - 3 - 韩国'
-  - DOMAIN-SUFFIX,jichengfz.top,'id13 - 3 - 韩国'
-  - IP-CIDR,106.13.113.119/32,'id13 - 3 - 韩国'
+  - DOMAIN-SUFFIX,immsg.today,id13 - 3 - 韩国
+  - DOMAIN-SUFFIX,aliyuncs.com,id13 - 3 - 韩国
+  - IP-CIDR,192.168.0.0/16,id13 - 3 - 韩国
+  - IP-CIDR,10.0.0.0/8,id13 - 3 - 韩国
+  - IP-CIDR,172.16.0.0/12,id13 - 3 - 韩国
+  - IP-CIDR,47.110.79.137/24,id13 - 3 - 韩国
+  - IP-CIDR,42.192.3.215/24,id13 - 3 - 韩国
+  - IP-CIDR,42.238.190.4/24,id13 - 3 - 韩国
+  - IP-CIDR,119.28.179.164/24,id13 - 3 - 韩国
+  - IP-CIDR,120.26.237.92/24,id13 - 3 - 韩国
+  - DOMAIN-SUFFIX,jichengfz.top,id13 - 3 - 韩国
+  - IP-CIDR,106.13.113.119/32,id13 - 3 - 韩国
 
-  - DOMAIN,play-lh.googleusercontent.com,'id13 - 3 - 韩国'
-  - DOMAIN-KEYWORD,vmoscloud,'id13 - 3 - 韩国'
-  - DOMAIN,openapi-hk.armcloud.net,'id13 - 3 - 韩国'
+  - DOMAIN,play-lh.googleusercontent.com,id13 - 3 - 韩国
+  - DOMAIN-KEYWORD,vmoscloud,id13 - 3 - 韩国
+  - DOMAIN,openapi-hk.armcloud.net,id13 - 3 - 韩国
   #js 静态文件
-  - DOMAIN-KEYWORD,youtube,'id13 - 3 - 韩国'
-  - DOMAIN-KEYWORD,facebook,'id13 - 3 - 韩国'
-  - DOMAIN,ms.bdstatic.com,'id13 - 3 - 韩国'
-  - DOMAIN,sv.bdstatic.com,'id13 - 3 - 韩国'
-  - DOMAIN,www.fbsbx.com,'id13 - 3 - 韩国'
-  - DOMAIN,static.xx.fbcdn.net,'id13 - 3 - 韩国'
-  - DOMAIN,psstatic.cdn.bcebos.com,'id13 - 3 - 韩国'
-  - DOMAIN,rr2---sn-ipoxu-3iik.gvt1.com,'id13 - 3 - 韩国'
-  - DOMAIN,beacons.gcp.gvt2.com,'id13 - 3 - 韩国'
-  - DOMAIN,beacons5.gvt3.com,'id13 - 3 - 韩国'
-  - DOMAIN,middledata.ldmnq.com,'id13 - 3 - 韩国'
-  - DOMAIN-KEYWORD,fonts,'id13 - 3 - 韩国'
+  - DOMAIN-KEYWORD,youtube,id13 - 3 - 韩国
+  - DOMAIN-KEYWORD,facebook,id13 - 3 - 韩国
+  - DOMAIN,ms.bdstatic.com,id13 - 3 - 韩国
+  - DOMAIN,sv.bdstatic.com,id13 - 3 - 韩国
+  - DOMAIN,www.fbsbx.com,id13 - 3 - 韩国
+  - DOMAIN,static.xx.fbcdn.net,id13 - 3 - 韩国
+  - DOMAIN,psstatic.cdn.bcebos.com,id13 - 3 - 韩国
+  - DOMAIN,rr2---sn-ipoxu-3iik.gvt1.com,id13 - 3 - 韩国
+  - DOMAIN,beacons.gcp.gvt2.com,id13 - 3 - 韩国
+  - DOMAIN,beacons5.gvt3.com,id13 - 3 - 韩国
+  - DOMAIN,middledata.ldmnq.com,id13 - 3 - 韩国
+  - DOMAIN-KEYWORD,fonts,id13 - 3 - 韩国
 
   #猜测为谷歌搜索页面
-  - DOMAIN,images-na.ssl-images-amazon.com,'id13 - 3 - 韩国'
-  - DOMAIN,en.m.wikipedia.org,'id13 - 3 - 韩国'
-  - DOMAIN,ir.ebaystatic.com,'id13 - 3 - 韩国'
-  - DOMAIN,www.instagram.com,'id13 - 3 - 韩国'
-  - DOMAIN,a.espncdn.com,'id13 - 3 - 韩国'
-  - DOMAIN,cdn.detik.net.id,'id13 - 3 - 韩国'
-  - DOMAIN,abs-0.twimg.com,'id13 - 3 - 韩国'
-  - DOMAIN,styleguide.brainly.co.id,'id13 - 3 - 韩国'
-  - DOMAIN,assets.cpcdn.com,'id13 - 3 - 韩国'
-  - DOMAIN,am.olx.biz.id,'id13 - 3 - 韩国'
-  - DOMAIN,yt3.ggpht.com,'id13 - 3 - 韩国'
+  - DOMAIN,images-na.ssl-images-amazon.com,id13 - 3 - 韩国
+  - DOMAIN,en.m.wikipedia.org,id13 - 3 - 韩国
+  - DOMAIN,ir.ebaystatic.com,id13 - 3 - 韩国
+  - DOMAIN,www.instagram.com,id13 - 3 - 韩国
+  - DOMAIN,a.espncdn.com,id13 - 3 - 韩国
+  - DOMAIN,cdn.detik.net.id,id13 - 3 - 韩国
+  - DOMAIN,abs-0.twimg.com,id13 - 3 - 韩国
+  - DOMAIN,styleguide.brainly.co.id,id13 - 3 - 韩国
+  - DOMAIN,assets.cpcdn.com,id13 - 3 - 韩国
+  - DOMAIN,am.olx.biz.id,id13 - 3 - 韩国
+  - DOMAIN,yt3.ggpht.com,id13 - 3 - 韩国
   
   - MATCH,动态住宅

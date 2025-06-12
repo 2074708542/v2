@@ -66,7 +66,6 @@ rules:
   - DOMAIN-SUFFIX,autonavi.com,id13 - 3 - 韩国
   - DOMAIN-SUFFIX,accounts.youtube.com,id13 - 3 - 韩国
   - DOMAIN-SUFFIX,www.bing.com,id13 - 3 - 韩国
-  - DOMAIN-SUFFIX,firefox.fun,id13 - 3 - 韩国
   - DOMAIN-SUFFIX,yimg.com,id13 - 3 - 韩国
   - DOMAIN-SUFFIX,yahoo.com,id13 - 3 - 韩国
   - DOMAIN-SUFFIX,mail-ads.google.com,id13 - 3 - 韩国
@@ -74,11 +73,9 @@ rules:
   - DOMAIN-SUFFIX,gvt2.com,id13 - 3 - 韩国
   - DOMAIN-SUFFIX,gvt1.com,id13 - 3 - 韩国
   - DOMAIN-SUFFIX,gstatic.com,id13 - 3 - 韩国
-  - DOMAIN-SUFFIX,dwmail.link,id13 - 3 - 韩国
   - DOMAIN-SUFFIX,api.haozhuma.com,id13 - 3 - 韩国
   - DOMAIN-SUFFIX,osss1.ikjkxy.fun,id13 - 3 - 韩国
   - DOMAIN-SUFFIX,flowframes.oss-cn-chengdu.aliyuncs.com,id13 - 3 - 韩国
-  - DOMAIN-SUFFIX,saasvideo.cn,id13 - 3 - 韩国
   - DOMAIN-SUFFIX,iosvip.ieasyclick.net,REJECT
   - DOMAIN-SUFFIX,immsg.today,id13 - 3 - 韩国
   - DOMAIN-SUFFIX,aliyuncs.com,id13 - 3 - 韩国
@@ -91,7 +88,10 @@ rules:
   - IP-CIDR,119.28.179.164/24,id13 - 3 - 韩国
   - IP-CIDR,120.26.237.92/24,id13 - 3 - 韩国
   - DOMAIN,play-lh.googleusercontent.com,id13 - 3 - 韩国
-  
+  #脚本调用接口走本地
+  - DOMAIN-SUFFIX,firefox.fun,DIRECT
+  - DOMAIN-SUFFIX,dwmail.link,DIRECT
+  - DOMAIN-SUFFIX,saasvideo.cn,DIRECT
   - DOMAIN-SUFFIX,jichengfz.top,DIRECT
   - IP-CIDR,106.13.113.119/32,DIRECT
   - DOMAIN-KEYWORD,vmoscloud,DIRECT

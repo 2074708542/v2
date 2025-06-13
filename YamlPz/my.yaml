@@ -123,4 +123,4 @@ rules:
   - DOMAIN,am.olx.biz.id,id13 - 3 - 韩国
   - DOMAIN,yt3.ggpht.com,id13 - 3 - 韩国
 
-    - MATCH,动态住宅
+  - MATCH,动态住宅

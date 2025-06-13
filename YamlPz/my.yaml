@@ -38,6 +38,7 @@ proxy-groups:
       - DIRECT
 # 规则
 rules:
+  - DOMAIN-KEYWORD,browserscan,DIRECT
   - DOMAIN-KEYWORD,//mail.google.com/mail/u/,DIRECT
   - DOMAIN-SUFFIX,adservice.google.com,DIRECT
   - DOMAIN-SUFFIX,ogs.google.com,DIRECT

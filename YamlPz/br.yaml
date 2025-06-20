@@ -38,35 +38,14 @@ proxy-groups:
       - DIRECT
 # 规则
 rules:
-  # - DOMAIN-SUFFIX,adservice.google.com,DIRECT
-  # - DOMAIN-SUFFIX,ogs.google.com,DIRECT
-  # - DOMAIN-SUFFIX,people-pa.clients6.google.com,DIRECT
-  # - DOMAIN-SUFFIX,feedback-pa.clients6.google.com,DIRECT
-  # - DOMAIN-SUFFIX,peoplestackwebexperiments-pa.clients6.google.com,DIRECT
-  # - DOMAIN-SUFFIX,peoplestack-pa.clients6.google.com,DIRECT
-  # - DOMAIN-SUFFIX,mail-seettings.google.com,DIRECT
-  # - DOMAIN-SUFFIX,lhe.google.com,DIRECT
-  # - DOMAIN-SUFFIX,ogads-pa.clients6.google.com,DIRECT
-  # - DOMAIN-SUFFIX,waa-pa.clients6.google.com,DIRECT
-  # - DOMAIN-SUFFIX,appsgrowthpromo-pa.clients6.google.com,DIRECT
-  # - DOMAIN-SUFFIX,addons-pa.clients6.google.com,DIRECT
-  # - DOMAIN-SUFFIX,contacts.google.com,DIRECT
-  # - DOMAIN-SUFFIX,googleads.g.doubleclick.net,DIRECT
-  # - DOMAIN-SUFFIX,www.googleadservices.com,DIRECT
-  # - DOMAIN-SUFFIX,www.google-analytics.com,DIRECT
-  # - DOMAIN-SUFFIX,apis.google.com,DIRECT
-  # - DOMAIN-SUFFIX,ssl/google-analytics.com,DIRECT
-  # - DOMAIN-SUFFIX,www.googletagmanager.com,DIRECT
-  # - DOMAIN-SUFFIX,lh3.googleusercontent.com,DIRECT
-  # - DOMAIN-SUFFIX,workspace.google.com,DIRECT
   - DOMAIN-SUFFIX,autonavi.com,DIRECT
   - DOMAIN-SUFFIX,accounts.youtube.com,DIRECT
   - DOMAIN-SUFFIX,www.bing.com,DIRECT
   - DOMAIN-SUFFIX,firefox.fun,DIRECT
   - DOMAIN-SUFFIX,yimg.com,DIRECT
   - DOMAIN-SUFFIX,yahoo.com,DIRECT
-  # - DOMAIN-SUFFIX,mail-ads.google.com,DIRECT
-  # - DOMAIN-SUFFIX,dl.google.com,DIRECT
+  - DOMAIN-SUFFIX,mail-ads.google.com,DIRECT
+  - DOMAIN-SUFFIX,dl.google.com,DIRECT
   - DOMAIN-SUFFIX,gvt2.com,DIRECT
   - DOMAIN-SUFFIX,gvt1.com,DIRECT
   - DOMAIN-SUFFIX,gstatic.com,DIRECT

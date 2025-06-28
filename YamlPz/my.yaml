@@ -38,35 +38,10 @@ proxy-groups:
       - DIRECT
 # 规则
 rules:
-  # - DOMAIN-KEYWORD,browserscan,DIRECT
-  - DOMAIN-KEYWORD,//mail.google.com/mail/u/,DIRECT
-  - DOMAIN-SUFFIX,adservice.google.com,DIRECT
-  - DOMAIN-SUFFIX,ogs.google.com,DIRECT
-  - DOMAIN-SUFFIX,people-pa.clients6.google.com,DIRECT
-  - DOMAIN-SUFFIX,feedback-pa.clients6.google.com,DIRECT
-  - DOMAIN-SUFFIX,peoplestackwebexperiments-pa.clients6.google.com,DIRECT
-  - DOMAIN-SUFFIX,peoplestack-pa.clients6.google.com,DIRECT
-  - DOMAIN-SUFFIX,mail-seettings.google.com,DIRECT
-  - DOMAIN-SUFFIX,lhe.google.com,DIRECT
-  - DOMAIN-SUFFIX,ogads-pa.clients6.google.com,DIRECT
-  - DOMAIN-SUFFIX,waa-pa.clients6.google.com,DIRECT
-  - DOMAIN-SUFFIX,appsgrowthpromo-pa.clients6.google.com,DIRECT
-  - DOMAIN-SUFFIX,addons-pa.clients6.google.com,DIRECT
-  - DOMAIN-KEYWORD,www.google.com/pagead/,DIRECT
-  - DOMAIN-KEYWORD,www.google.com/js/,DIRECT
-  - DOMAIN-KEYWORD,www.google.com/_/scs/mail-static,DIRECT
-  - DOMAIN-SUFFIX,contacts.google.com,DIRECT
-  - DOMAIN-SUFFIX,googleads.g.doubleclick.net,DIRECT
-  - DOMAIN-SUFFIX,www.googleadservices.com,DIRECT
-  - DOMAIN-SUFFIX,www.google-analytics.com,DIRECT
-  - DOMAIN-SUFFIX,apis.google.com,DIRECT
-  - DOMAIN-SUFFIX,ssl/google-analytics.com,DIRECT
-  - DOMAIN-SUFFIX,www.googletagmanager.com,DIRECT
-  - DOMAIN-SUFFIX,lh3.googleusercontent.com,DIRECT
-  - DOMAIN-SUFFIX,workspace.google.com,DIRECT
   - DOMAIN-SUFFIX,autonavi.com,DIRECT
   - DOMAIN-SUFFIX,accounts.youtube.com,DIRECT
   - DOMAIN-SUFFIX,www.bing.com,DIRECT
+  - DOMAIN-SUFFIX,firefox.fun,DIRECT
   - DOMAIN-SUFFIX,yimg.com,DIRECT
   - DOMAIN-SUFFIX,yahoo.com,DIRECT
   - DOMAIN-SUFFIX,mail-ads.google.com,DIRECT
@@ -74,9 +49,11 @@ rules:
   - DOMAIN-SUFFIX,gvt2.com,DIRECT
   - DOMAIN-SUFFIX,gvt1.com,DIRECT
   - DOMAIN-SUFFIX,gstatic.com,DIRECT
+  - DOMAIN-SUFFIX,dwmail.link,DIRECT
   - DOMAIN-SUFFIX,api.haozhuma.com,DIRECT
   - DOMAIN-SUFFIX,osss1.ikjkxy.fun,DIRECT
   - DOMAIN-SUFFIX,flowframes.oss-cn-chengdu.aliyuncs.com,DIRECT
+  - DOMAIN-SUFFIX,saasvideo.cn,DIRECT
   - DOMAIN-SUFFIX,iosvip.ieasyclick.net,REJECT
   - DOMAIN-SUFFIX,immsg.today,DIRECT
   - DOMAIN-SUFFIX,aliyuncs.com,DIRECT
@@ -88,15 +65,13 @@ rules:
   - IP-CIDR,42.238.190.4/24,DIRECT
   - IP-CIDR,119.28.179.164/24,DIRECT
   - IP-CIDR,120.26.237.92/24,DIRECT
-  - DOMAIN,play-lh.googleusercontent.com,DIRECT
-  #脚本调用接口走本地
-  - DOMAIN-SUFFIX,firefox.fun,DIRECT
-  - DOMAIN-SUFFIX,dwmail.link,DIRECT
-  - DOMAIN-SUFFIX,saasvideo.cn,DIRECT
   - DOMAIN-SUFFIX,jichengfz.top,DIRECT
   - IP-CIDR,106.13.113.119/32,DIRECT
+  - IP-CIDR,47.239.69.9/32,DIRECT
+
+  - DOMAIN,play-lh.googleusercontent.com,DIRECT
   - DOMAIN-KEYWORD,vmoscloud,DIRECT
-  - DOMAIN,openapi-hk.armcloud.net,DIRECT
+  - DOMAIN-KEYWORD,armcloud,DIRECT
   #js 静态文件
   - DOMAIN-KEYWORD,youtube,DIRECT
   - DOMAIN-KEYWORD,facebook,DIRECT
@@ -123,5 +98,5 @@ rules:
   - DOMAIN,assets.cpcdn.com,DIRECT
   - DOMAIN,am.olx.biz.id,DIRECT
   - DOMAIN,yt3.ggpht.com,DIRECT
-
+  
   - MATCH,动态住宅

@@ -67,6 +67,7 @@ rules:
   - IP-CIDR,120.26.237.92/24,DIRECT
   - DOMAIN-SUFFIX,jichengfz.top,DIRECT
   - IP-CIDR,106.13.113.119/32,DIRECT
+  - IP-CIDR,47.239.69.9/32,DIRECT
 
   - DOMAIN,play-lh.googleusercontent.com,DIRECT
   - DOMAIN-KEYWORD,vmoscloud,DIRECT

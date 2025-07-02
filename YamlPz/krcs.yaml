@@ -1,0 +1,104 @@
+port: 7890
+socks-port: 7891
+allow-lan: false
+mode: Rule
+log-level: info
+external-controller: 127.0.0.1:9090
+experimental:
+  ignore-resolve-fail: true 
+hosts:
+  "mtalk.google.com": 108.177.125.188
+
+proxies:
+
+  - name: 动态住宅
+    type: socks5
+    server: 7543a652ba45450c.fkz.as.ipidea.online
+    port: 2333
+    username: vmByasjkd-zone-custom-region-kr
+    password: vmByasjkd
+  #- name: 'id13 - 4 - 韩国'
+  - name: KR
+    type: ss
+    server: cn02.lyf520.xyz
+    port: 27013
+    cipher: aes-128-gcm
+    password: mL5aR2
+    udp: true
+proxy-groups:
+  # - name: relay⏭
+  #   type: relay
+  #   proxies:
+  #     - output
+  #     - 动态住宅
+  - name: output
+    type: select
+    proxies:
+      # - id13 - 3 - 韩国
+      - 动态住宅
+      - KR
+      - DIRECT
+# 规则
+rules:
+  - DOMAIN-SUFFIX,autonavi.com,KR
+  - DOMAIN-SUFFIX,accounts.youtube.com,KR
+  - DOMAIN-SUFFIX,www.bing.com,KR
+  - DOMAIN-SUFFIX,firefox.fun,KR
+  - DOMAIN-SUFFIX,yimg.com,KR
+  - DOMAIN-SUFFIX,yahoo.com,KR
+  - DOMAIN-SUFFIX,mail-ads.google.com,KR
+  - DOMAIN-SUFFIX,dl.google.com,KR
+  - DOMAIN-SUFFIX,gvt2.com,KR
+  - DOMAIN-SUFFIX,gvt1.com,KR
+  - DOMAIN-SUFFIX,gstatic.com,KR
+  - DOMAIN-SUFFIX,dwmail.link,KR
+  - DOMAIN-SUFFIX,api.haozhuma.com,KR
+  - DOMAIN-SUFFIX,osss1.ikjkxy.fun,KR
+  - DOMAIN-SUFFIX,flowframes.oss-cn-chengdu.aliyuncs.com,KR
+  - DOMAIN-SUFFIX,saasvideo.cn,KR
+  - DOMAIN-SUFFIX,iosvip.ieasyclick.net,REJECT
+  - DOMAIN-SUFFIX,immsg.today,KR
+  - DOMAIN-SUFFIX,aliyuncs.com,KR
+  - IP-CIDR,192.168.0.0/16,KR
+  - IP-CIDR,10.0.0.0/8,KR
+  - IP-CIDR,172.16.0.0/12,KR
+  - IP-CIDR,47.110.79.137/24,KR
+  - IP-CIDR,42.192.3.215/24,KR
+  - IP-CIDR,42.238.190.4/24,KR
+  - IP-CIDR,119.28.179.164/24,KR
+  - IP-CIDR,120.26.237.92/24,KR
+  - DOMAIN-SUFFIX,jichengfz.top,DIRECT
+  - IP-CIDR,106.13.113.119/32,DIRECT
+  - IP-CIDR,47.239.69.9/32,DIRECT
+
+  - DOMAIN,play-lh.googleusercontent.com,KR
+  - DOMAIN-KEYWORD,vmoscloud,DIRECT
+  - DOMAIN-KEYWORD,armcloud,DIRECT
+  #js 静态文件
+  - DOMAIN-KEYWORD,youtube,KR
+  - DOMAIN-KEYWORD,facebook,KR
+  - DOMAIN,ms.bdstatic.com,KR
+  - DOMAIN,sv.bdstatic.com,KR
+  - DOMAIN,www.fbsbx.com,KR
+  - DOMAIN,static.xx.fbcdn.net,KR
+  - DOMAIN,psstatic.cdn.bcebos.com,KR
+  - DOMAIN,rr2---sn-ipoxu-3iik.gvt1.com,KR
+  - DOMAIN,beacons.gcp.gvt2.com,KR
+  - DOMAIN,beacons5.gvt3.com,KR
+  - DOMAIN,middledata.ldmnq.com,KR
+  - DOMAIN-KEYWORD,fonts,KR
+
+  #猜测为谷歌搜索页面
+  - DOMAIN,images-na.ssl-images-amazon.com,KR
+  - DOMAIN,en.m.wikipedia.org,KR
+  - DOMAIN,ir.ebaystatic.com,KR
+  - DOMAIN,www.instagram.com,KR
+  - DOMAIN,a.espncdn.com,KR
+  - DOMAIN,cdn.detik.net.id,KR
+  - DOMAIN,abs-0.twimg.com,KR
+  - DOMAIN,styleguide.brainly.co.id,KR
+  - DOMAIN,assets.cpcdn.com,KR
+  - DOMAIN,am.olx.biz.id,KR
+  - DOMAIN,yt3.ggpht.com,KR
+  
+  - MATCH,动态住宅

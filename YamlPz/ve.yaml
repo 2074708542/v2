@@ -22,7 +22,7 @@ proxies:
     port: 2333
     username: vmByasjkd-zone-custom-region-ve
     password: vmByasjkd
-  - name: 'id13 - 4 - 韩国'
+  # - name: 'id13 - 4 - 韩国'
   - name: KR
     type: ss
     server: cn02.lyf520.xyz

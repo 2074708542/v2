@@ -10,14 +10,19 @@ hosts:
   "mtalk.google.com": 108.177.125.188
 
 proxies:
-
+  # - name: 动态住宅
+  #   type: socks5
+  #   server: as.dcfba5b55f4f7054.ipmars.vip
+  #   port: 4900
+  #   username: WRY2aRyDmi-zone-mars-region-VE
+  #   password: 43560082
   - name: 动态住宅
     type: socks5
     server: 7543a652ba45450c.fkz.as.ipidea.online
     port: 2333
     username: vmByasjkd-zone-custom-region-ve
     password: vmByasjkd
-  #- name: 'id13 - 4 - 韩国'
+  - name: 'id13 - 4 - 韩国'
   - name: KR
     type: ss
     server: cn02.lyf520.xyz

@@ -17,10 +17,9 @@ proxies:
     port: 2333
     username: vmByasjkd-zone-custom-region-ru
     password: vmByasjkd
-  #- name: 'id13 - 4 - 韩国'
-  - name: KR
+  - name: "id03 - 5 - 韩国"
     type: ss
-    server: cn02.lyf520.xyz
+    server: 120.238.76.202
     port: 27013
     cipher: aes-128-gcm
     password: mL5aR2
@@ -34,9 +33,8 @@ proxy-groups:
   - name: output
     type: select
     proxies:
-      # - id13 - 3 - 韩国
+      # - "id03 - 5 - 韩国"
       - 动态住宅
-      # - KR
       - DIRECT
 # 规则
 rules:

@@ -15,7 +15,7 @@ proxies:
     type: socks5
     server: 7543a652ba45450c.fkz.as.ipidea.online
     port: 2333
-    username: vmByasjkd-zone-custom-region-uz
+    username: vmByasjkd-zone-custom-region-kg
     password: vmByasjkd
   - name: "id03 - 5 - 韩国"
     type: ss

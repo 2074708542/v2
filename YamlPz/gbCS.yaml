@@ -15,7 +15,7 @@ proxies:
     type: socks5
     server: na.dcfba5b55f4f7054.ipmars.vip
     port: 4900
-    username: ceshill3-zone-mars-region-MX
+    username: ceshill5-zone-mars-region-GB
     password: Aabbcc123
   - name: "id03 - 5 - 韩国"
     type: ss

@@ -10,13 +10,13 @@ hosts:
   "mtalk.google.com": 108.177.125.188
 
 proxies:
-# na.dcfba5b55f4f7054.ipmars.vip:4900:ceshill1-zone-mars-region-MX:Aabbcc123
+# cese123-zone-custom-region-mx:cese123:7543a652ba45450c.fkz.as.ipidea.online:2333
   - name: 动态住宅
     type: socks5
-    server: na.dcfba5b55f4f7054.ipmars.vip
-    port: 4900
-    username: ceshill1-zone-mars-region-MX
-    password: Aabbcc123
+    server: 7543a652ba45450c.fkz.as.ipidea.online
+    port: 2333
+    username: cese123-zone-custom-region-mx
+    password: cese123
   #- name: 'id13 - 4 - 韩国'
   - name: KR
     type: ss

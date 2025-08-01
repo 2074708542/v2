@@ -46,6 +46,7 @@ rules:
   - DOMAIN-SUFFIX,yahoo.com,DIRECT
   - DOMAIN-SUFFIX,mail-ads.google.com,DIRECT
   - DOMAIN-SUFFIX,dl.google.com,DIRECT
+  - DOMAIN-SUFFIX,gvt3.com,DIRECT
   - DOMAIN-SUFFIX,gvt2.com,DIRECT
   - DOMAIN-SUFFIX,gvt1.com,DIRECT
   - DOMAIN-SUFFIX,gstatic.com,DIRECT
@@ -80,9 +81,6 @@ rules:
   - DOMAIN,www.fbsbx.com,DIRECT
   - DOMAIN,static.xx.fbcdn.net,DIRECT
   - DOMAIN,psstatic.cdn.bcebos.com,DIRECT
-  - DOMAIN,rr2---sn-ipoxu-3iik.gvt1.com,DIRECT
-  - DOMAIN,beacons.gcp.gvt2.com,DIRECT
-  - DOMAIN,beacons5.gvt3.com,DIRECT
   - DOMAIN,middledata.ldmnq.com,DIRECT
   - DOMAIN-KEYWORD,fonts,DIRECT
 

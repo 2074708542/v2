@@ -46,9 +46,9 @@ rules:
   - DOMAIN-SUFFIX,yahoo.com,DIRECT
   - DOMAIN-SUFFIX,mail-ads.google.com,DIRECT
   - DOMAIN-SUFFIX,dl.google.com,DIRECT
-  - DOMAIN-SUFFIX,gvt3.com,DIRECT
-  - DOMAIN-SUFFIX,gvt2.com,DIRECT
-  - DOMAIN-SUFFIX,gvt1.com,DIRECT
+  - DOMAIN-KEYWORD,gvt3.com,DIRECT
+  - DOMAIN-KEYWORD,gvt2.com,DIRECT
+  - DOMAIN-KEYWORD,gvt1.com,DIRECT
   - DOMAIN-SUFFIX,gstatic.com,DIRECT
   - DOMAIN-SUFFIX,dwmail.link,DIRECT
   - DOMAIN-SUFFIX,api.haozhuma.com,DIRECT

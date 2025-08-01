@@ -17,10 +17,9 @@ proxies:
     port: 2333
     username: vmByasjkd-zone-custom-region-mx
     password: vmByasjkd
-  #- name: 'id13 - 4 - 韩国'
-  - name: KR
+  - name: "id03 - 5 - 韩国"
     type: ss
-    server: cn02.lyf520.xyz
+    server: 120.238.76.202
     port: 27013
     cipher: aes-128-gcm
     password: mL5aR2
@@ -34,31 +33,31 @@ proxy-groups:
   - name: output
     type: select
     proxies:
-      # - id13 - 3 - 韩国
+      # - "id03 - 5 - 韩国"
       - 动态住宅
-      # - KR
       - DIRECT
 # 规则
 rules:
-  - DOMAIN-SUFFIX,autonavi.com,DIRECT
-  - DOMAIN-SUFFIX,accounts.youtube.com,DIRECT
-  - DOMAIN-SUFFIX,www.bing.com,DIRECT
-  - DOMAIN-SUFFIX,firefox.fun,DIRECT
-  - DOMAIN-SUFFIX,yimg.com,DIRECT
-  - DOMAIN-SUFFIX,yahoo.com,DIRECT
-  - DOMAIN-SUFFIX,mail-ads.google.com,DIRECT
-  - DOMAIN-SUFFIX,dl.google.com,DIRECT
-  - DOMAIN-SUFFIX,gvt2.com,DIRECT
-  - DOMAIN-SUFFIX,gvt1.com,DIRECT
-  - DOMAIN-SUFFIX,gstatic.com,DIRECT
-  - DOMAIN-SUFFIX,dwmail.link,DIRECT
-  - DOMAIN-SUFFIX,api.haozhuma.com,DIRECT
-  - DOMAIN-SUFFIX,osss1.ikjkxy.fun,DIRECT
-  - DOMAIN-SUFFIX,flowframes.oss-cn-chengdu.aliyuncs.com,DIRECT
-  - DOMAIN-SUFFIX,saasvideo.cn,DIRECT
-  - DOMAIN-SUFFIX,iosvip.ieasyclick.net,REJECT
-  - DOMAIN-SUFFIX,immsg.today,DIRECT
-  - DOMAIN-SUFFIX,aliyuncs.com,DIRECT
+  - DOMAIN-KEYWORD,autonavi.com,DIRECT
+  - DOMAIN-KEYWORD,accounts.youtube.com,DIRECT
+  - DOMAIN-KEYWORD,www.bing.com,DIRECT
+  - DOMAIN-KEYWORD,firefox.fun,DIRECT
+  - DOMAIN-KEYWORD,yimg.com,DIRECT
+  - DOMAIN-KEYWORD,yahoo.com,DIRECT
+  - DOMAIN-KEYWORD,mail-ads.google.com,DIRECT
+  - DOMAIN-KEYWORD,dl.google.com,DIRECT
+  - DOMAIN-KEYWORD,gvt3.com,DIRECT
+  - DOMAIN-KEYWORD,gvt2.com,DIRECT
+  - DOMAIN-KEYWORD,gvt1.com,DIRECT
+  - DOMAIN-KEYWORD,gstatic.com,DIRECT
+  - DOMAIN-KEYWORD,dwmail.link,DIRECT
+  - DOMAIN-KEYWORD,api.haozhuma.com,DIRECT
+  - DOMAIN-KEYWORD,osss1.ikjkxy.fun,DIRECT
+  - DOMAIN-KEYWORD,flowframes.oss-cn-chengdu.aliyuncs.com,DIRECT
+  - DOMAIN-KEYWORD,saasvideo.cn,DIRECT
+  - DOMAIN-KEYWORD,iosvip.ieasyclick.net,REJECT
+  - DOMAIN-KEYWORD,immsg.today,DIRECT
+  - DOMAIN-KEYWORD,aliyuncs.com,DIRECT
   - IP-CIDR,192.168.0.0/16,DIRECT
   - IP-CIDR,10.0.0.0/8,DIRECT
   - IP-CIDR,172.16.0.0/12,DIRECT
@@ -67,7 +66,7 @@ rules:
   - IP-CIDR,42.238.190.4/24,DIRECT
   - IP-CIDR,119.28.179.164/24,DIRECT
   - IP-CIDR,120.26.237.92/24,DIRECT
-  - DOMAIN-SUFFIX,jichengfz.top,DIRECT
+  - DOMAIN-KEYWORD,jichengfz.top,DIRECT
   - IP-CIDR,106.13.113.119/32,DIRECT
   - IP-CIDR,47.239.69.9/32,DIRECT
 
@@ -82,13 +81,10 @@ rules:
   - DOMAIN,www.fbsbx.com,DIRECT
   - DOMAIN,static.xx.fbcdn.net,DIRECT
   - DOMAIN,psstatic.cdn.bcebos.com,DIRECT
-  - DOMAIN,rr2---sn-ipoxu-3iik.gvt1.com,DIRECT
-  - DOMAIN,beacons.gcp.gvt2.com,DIRECT
-  - DOMAIN,beacons5.gvt3.com,DIRECT
   - DOMAIN,middledata.ldmnq.com,DIRECT
   - DOMAIN-KEYWORD,fonts,DIRECT
 
-  #猜测为谷歌搜索页面
+  # 猜测为谷歌搜索页面
   - DOMAIN,images-na.ssl-images-amazon.com,DIRECT
   - DOMAIN,en.m.wikipedia.org,DIRECT
   - DOMAIN,ir.ebaystatic.com,DIRECT

@@ -10,7 +10,7 @@ hosts:
   "mtalk.google.com": 108.177.125.188
 
 proxies:
-  # - { name: '🇺🇸 美国-费城丨1x US', type: ss, server: hmxawpw7.epicgames.ink, port: 13110, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: { mode: http, host: 97039668b450.microsoft.com }, udp: true }
+  #  - { name: '🇭🇰 香港 01丨1x HK', type: ss, server: l53x2cuv.epicgames.ink, port: 12022, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: { mode: http, host: 97039668b450.microsoft.com }, udp: true }
   - name: 动态住宅
     type: socks5
     server: 7543a652ba45450c.fkz.as.ipidea.online
@@ -19,12 +19,12 @@ proxies:
     password: vmByasjkd
   - name: 静态住宅
     type: ss
-    server: hmxawpw7.epicgames.ink
-    port: 13110
+    server: l53x2cuv.epicgames.ink
+    port: 12022
     cipher: aes-128-gcm
     password: haMLMXirByn6rGVh
-    plugin-opts: { mode: http, host: 97039668b450.microsoft.com }
     plugin: obfs
+    plugin-opts: { mode: http, host: 97039668b450.microsoft.com }
     udp: true
 proxy-groups:
   - name: relay⏭

@@ -13,10 +13,10 @@ proxies:
   #  - { name: '🇭🇰 香港 01丨1x HK', type: ss, server: l53x2cuv.epicgames.ink, port: 12022, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: { mode: http, host: 97039668b450.microsoft.com }, udp: true }
   - name: 动态住宅
     type: socks5
-    server: 7543a652ba45450c.fkz.as.ipidea.online
+    server: 7543a652ba45450c.lqz.na.ipidea.online
     port: 2333
-    username: vmByasjkd-zone-custom-region-us
-    password: vmByasjkd
+    username: cese123-zone-custom-region-us-session-1236kr3ji-sessTime-30
+    password: cese123
   - name: 静态住宅
     type: ss
     server: l53x2cuv.epicgames.ink

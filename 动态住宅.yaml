@@ -15,7 +15,7 @@ proxies:
     type: socks5
     server: 7543a652ba45450c.lqz.na.ipidea.online
     port: 2333
-    username: cese123-zone-custom-region-us-session-1236kr3ji-sessTime-30
+    username: cese123-zone-custom-region-us-session-123gvv0s9-sessTime-30
     password: cese123
   - name: 静态住宅
     type: ss
